@@ -1,0 +1,16 @@
+2018-10-08 11:37:18,705: umgr.staging.input.queue.bridge.0000: umgr.staging.input.queue.bridge.0000.child: MainThread     : ERROR   : abort: KeyboardInterrupt()
+Traceback (most recent call last):
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/utils/process.py", line 625, in _run
+    if not self.work_cb():
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/pilot/utils/queue.py", line 341, in work_cb
+    timeout=1000):
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/pilot/utils/queue.py", line 50, in _uninterruptible
+    return f(*args, **kwargs)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/zmq/sugar/socket.py", line 694, in poll
+    evts = dict(p.poll(timeout))
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/zmq/sugar/poll.py", line 99, in poll
+    return zmq_poll(self.sockets, timeout=timeout)
+  File "zmq/backend/cython/_poll.pyx", line 123, in zmq.backend.cython._poll.zmq_poll
+  File "zmq/backend/cython/checkrc.pxd", line 12, in zmq.backend.cython.checkrc._check_rc
+    PyErr_CheckSignals()
+KeyboardInterrupt

@@ -1,0 +1,18 @@
+2018-10-08 12:09:58,040: umgr.0000.staging.output.0.child: umgr.0000.staging.output.0      : MainThread     : ERROR   : worker <bound method Default.work of <Default(umgr.0000.staging.output.0, started)>> failed
+Traceback (most recent call last):
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/pilot/utils/component.py", line 1267, in work_cb
+    self._workers[state](things)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/pilot/umgr/staging_output/default.py", line 104, in work
+    self._handle_unit(unit, actionables)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/pilot/umgr/staging_output/default.py", line 161, in _handle_unit
+    saga_dir.copy(src, tgt, flags=flags)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/namespace/directory.py", line 353, in copy
+    if url_2  :  return self._adaptor.copy (url_1, url_2, flags, ttype=ttype)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/adaptors/cpi/decorators.py", line 57, in wrap_function
+    return sync_function (self, *args, **kwargs)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/adaptors/shell/shell_file.py", line 598, in copy
+    tgt.path, rec_flag)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/utils/pty_shell.py", line 899, in stage_to_remote
+    raise ptye.translate_exception (e)
+DoesNotExist: file copy failed: /bin/cp: cannot stat '/home/kumar/radical.pilot.sandbox/rp.session.kumar-VirtualBox.kumar.017812.0012/pilot.0000/unit.000000/Output/Output1.txt': No such file or directory
+$ (/home/kumar/ve/local/lib/python2.7/site-packages/saga/utils/pty_shell.py +1019 (run_copy_to)  :  raise se.DoesNotExist._log (info['logger'], "file copy failed: %s" % str(out)))

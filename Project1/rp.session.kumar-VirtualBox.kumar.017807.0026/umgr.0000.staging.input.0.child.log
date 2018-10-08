@@ -1,0 +1,39 @@
+2018-10-02 21:26:39,714: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : ERROR   : worker <bound method Default.work of <Default(umgr.0000.staging.input.0, started)>> failed
+Traceback (most recent call last):
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/pilot/utils/component.py", line 1267, in work_cb
+    self._workers[state](things)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/pilot/umgr/staging_input/default.py", line 206, in work
+    session=self._session)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/filesystem/directory.py", line 95, in __init__
+    _adaptor, _adaptor_state, _ttype=_ttype)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/namespace/directory.py", line 95, in __init__
+    _adaptor, _adaptor_state, _ttype=_ttype)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/namespace/entry.py", line 89, in __init__
+    url, flags, session, ttype=_ttype)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/base.py", line 104, in __init__
+    self._init_task = self._adaptor.init_instance (adaptor_state, *args, **kwargs)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/adaptors/cpi/decorators.py", line 57, in wrap_function
+    return sync_function (self, *args, **kwargs)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/adaptors/shell/shell_file.py", line 292, in init_instance
+    self.initialize()
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/adaptors/shell/shell_file.py", line 347, in initialize
+    ret, out, _ = self._command(cmd, make_location=mkl)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/adaptors/shell/shell_file.py", line 306, in _command
+    with self.lm.lease(lease_tgt, self.shell_creator, location) \
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/utils/lease_manager.py", line 284, in lease
+    obj = self._create_object (pool_id, creator, args)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/utils/lease_manager.py", line 175, in _create_object
+    obj = _LeaseObject (self, self._log, creator, args)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/utils/lease_manager.py", line 33, in __init__
+    self.obj        = creator (*args)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/adaptors/shell/shell_file.py", line 284, in _shell_creator
+    return sups.PTYShell(url, self.get_session(), self._logger)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/utils/pty_shell.py", line 247, in __init__
+    interactive=self.interactive)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/utils/pty_shell_factory.py", line 209, in initialize
+    if  not info['pty'].alive (recover=True) :
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/utils/pty_process.py", line 493, in alive
+    self.initialize ()
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/saga/utils/pty_process.py", line 225, in initialize
+    % (' '.join (self.command), e))
+NoSuccess: Could not run (/usr/bin/env TERM=vt100 /bin/bash -i): [Errno 12] Cannot allocate memory (/home/kumar/ve/local/lib/python2.7/site-packages/saga/utils/pty_process.py +225 (initialize)  :  % (' '.join (self.command), e)))

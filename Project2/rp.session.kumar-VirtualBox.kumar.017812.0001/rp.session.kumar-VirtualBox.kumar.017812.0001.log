@@ -1,0 +1,19 @@
+2018-10-08 11:26:58,577: rp.session.kumar-VirtualBox.kumar.017812.0001: MainProcess                     : MainThread     : ERROR   : session create failed
+Traceback (most recent call last):
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/pilot/session.py", line 255, in __init__
+    connect=_connect)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/radical/pilot/db/database.py", line 69, in __init__
+    self._c.create_index([('uid',   pymongo.ASCENDING)], unique=True,  sparse=False)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/pymongo/collection.py", line 1958, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/pymongo/collection.py", line 1860, in __create_index
+    session=session)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/pymongo/collection.py", line 244, in _command
+    retryable_write=retryable_write)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/pymongo/pool.py", line 579, in command
+    unacknowledged=unacknowledged)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/pymongo/network.py", line 150, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "/home/kumar/ve/local/lib/python2.7/site-packages/pymongo/helpers.py", line 155, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+OperationFailure: too many namespaces/collections

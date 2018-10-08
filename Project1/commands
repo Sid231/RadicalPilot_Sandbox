@@ -1,0 +1,5 @@
+source $HOME/ve/bin/activate
+export RADICAL_PILOT_DBURL=mongodb://ks_rp:ks_rp123@ds119853.mlab.com:19853/ksiddhant_rp
+export RADICAL_REPORT=TRUE
+python 00_getting_started.py local.localhost_anaconda
+/usr/bin/time -v python 00_getting_started.py local.localhost
