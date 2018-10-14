@@ -1,0 +1,294 @@
+2018-10-11 10:57:06,323: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : INFO    : python.interpreter   version: 2.7.15 |Anaconda, Inc.| (default, May 1 2018, 23:32:55) [GCC 7.2.0]
+2018-10-11 10:57:06,324: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : INFO    :                      pid/tid: 15410/MainThread
+2018-10-11 10:57:06,324: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : INFO    : initialize agent_0.staging.input.0.child
+2018-10-11 10:57:06,331: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : INFO    : cfg: {'agent_launch_method': 'FORK',
+ 'agent_name': 'agent_0',
+ 'agents': {},
+ 'bridges': {'agent_executing_queue': {'addr_in': 'tcp://204.90.41.4:45182',
+                                       'addr_out': 'tcp://204.90.41.4:36258',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_schedule_pubsub': {'addr_in': 'tcp://204.90.41.4:34832',
+                                       'addr_out': 'tcp://204.90.41.4:37785',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_scheduling_queue': {'addr_in': 'tcp://204.90.41.4:41214',
+                                        'addr_out': 'tcp://204.90.41.4:38338',
+                                        'bulk_size': 0,
+                                        'log_level': 'error',
+                                        'stall_hwm': 1},
+             'agent_staging_input_queue': {'addr_in': 'tcp://204.90.41.4:35080',
+                                           'addr_out': 'tcp://204.90.41.4:42183',
+                                           'bulk_size': 0,
+                                           'log_level': 'error',
+                                           'stall_hwm': 1},
+             'agent_staging_output_queue': {'addr_in': 'tcp://204.90.41.4:39052',
+                                            'addr_out': 'tcp://204.90.41.4:33252',
+                                            'bulk_size': 0,
+                                            'log_level': 'error',
+                                            'stall_hwm': 1},
+             'agent_unschedule_pubsub': {'addr_in': 'tcp://204.90.41.4:34210',
+                                         'addr_out': 'tcp://204.90.41.4:36416',
+                                         'bulk_size': 0,
+                                         'log_level': 'error',
+                                         'stall_hwm': 1},
+             'control_pubsub': {'addr_in': 'tcp://204.90.41.4:36490',
+                                'addr_out': 'tcp://204.90.41.4:41271',
+                                'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+             'log_pubsub': {'addr_in': 'tcp://204.90.41.4:35399',
+                            'addr_out': 'tcp://204.90.41.4:40168',
+                            'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+             'state_pubsub': {'addr_in': 'tcp://204.90.41.4:32911',
+                              'addr_out': 'tcp://204.90.41.4:34046',
+                              'bulk_size': 0,
+                              'log_level': 'error',
+                              'stall_hwm': 1}},
+ 'bulk_collection_size': 100,
+ 'bulk_collection_time': 1.0,
+ 'cname': 'AgentStagingInputComponent',
+ 'components': {},
+ 'cores': 80,
+ 'cores_per_node': 8,
+ 'count': 1,
+ 'cu_post_exec': None,
+ 'cu_pre_exec': None,
+ 'cu_tmp': None,
+ 'db_poll_sleeptime': 1.0,
+ 'dburl': 'mongodb://aymenfja:123456789@ds127490.mlab.com:27490/radicallab',
+ 'debug': 10,
+ 'export_to_cu': None,
+ 'gpus': 0,
+ 'gpus_per_node': 1,
+ 'logdir': '.',
+ 'lrms': 'FORK',
+ 'lrms_info': {'agent_nodes': {},
+               'cores_per_node': 8,
+               'gpus_per_node': 1,
+               'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                                     'version_detail': 'There is no spoon'}}},
+               'name': 'Fork',
+               'node_list': [['localhost', 'localhost_0'],
+                             ['localhost', 'localhost_1'],
+                             ['localhost', 'localhost_2'],
+                             ['localhost', 'localhost_3'],
+                             ['localhost', 'localhost_4'],
+                             ['localhost', 'localhost_5'],
+                             ['localhost', 'localhost_6'],
+                             ['localhost', 'localhost_7'],
+                             ['localhost', 'localhost_8'],
+                             ['localhost', 'localhost_9']]},
+ 'max_io_loglength': 1024,
+ 'mode': 'shared',
+ 'mpi_launch_method': 'MPIEXEC',
+ 'number': 0,
+ 'owner': 'agent_0',
+ 'pilot_id': 'pilot.0000',
+ 'pilot_sandbox': '/home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0064/pilot.0000/',
+ 'resource_cfg': {'agent_launch_method': 'FORK',
+                  'agent_scheduler': 'CONTINUOUS',
+                  'agent_spawner': 'POPEN',
+                  'cores_per_node': 8,
+                  'default_remote_workdir': '$HOME',
+                  'description': 'Your local machine.',
+                  'filesystem_endpoint': 'file://localhost/',
+                  'gpus_per_node': 1,
+                  'job_manager_endpoint': 'fork://localhost/',
+                  'label': 'local.localhost_anaconda',
+                  'local': {'filesystem_endpoint': 'file://localhost/',
+                            'job_manager_endpoint': 'fork://localhost/'},
+                  'lrms': 'FORK',
+                  'mpi_launch_method': 'MPIEXEC',
+                  'notes': 'To use the ssh schema, make sure that ssh access to localhost is enabled.',
+                  'python_dist': 'anaconda',
+                  'rp_version': 'local',
+                  'schemas': ['local', 'ssh'],
+                  'ssh': {'filesystem_endpoint': 'sftp://localhost/',
+                          'job_manager_endpoint': 'ssh://localhost/'},
+                  'task_launch_method': 'FORK',
+                  'virtenv_mode': 'create'},
+ 'resource_sandbox': '/home/sdimitro/radical.pilot.sandbox',
+ 'runtime': 15,
+ 'scheduler': 'CONTINUOUS',
+ 'session_id': 'rp.session.smic004.sdimitro.017815.0064',
+ 'session_sandbox': '/home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0064',
+ 'spawner': 'POPEN',
+ 'staging_area': 'staging_area',
+ 'staging_schema': 'staging',
+ 'target': 'local',
+ 'task_launch_method': 'FORK',
+ 'uid': 'agent_0',
+ 'workdir': '/home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0064/pilot.0000'}
+2018-10-11 10:57:06,331: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : start components: {}
+2018-10-11 10:57:06,331: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:57:06,332: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : START: agent_0.staging.input.0.child register publisher log_pubsub
+2018-10-11 10:57:06,332: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : using addr tcp://204.90.41.4:35399 for pubsub log_pubsub
+2018-10-11 10:57:06,346: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0002
+2018-10-11 10:57:06,346: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:57:06,346: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : START: agent_0.staging.input.0.child register publisher state_pubsub
+2018-10-11 10:57:06,346: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : using addr tcp://204.90.41.4:32911 for pubsub state_pubsub
+2018-10-11 10:57:06,356: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0002
+2018-10-11 10:57:06,356: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:57:06,356: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : START: agent_0.staging.input.0.child register publisher control_pubsub
+2018-10-11 10:57:06,356: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : using addr tcp://204.90.41.4:36490 for pubsub control_pubsub
+2018-10-11 10:57:06,363: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0002
+2018-10-11 10:57:06,368: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:57:06,368: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : START: agent_0.staging.input.0.child register subscriber agent_0.staging.input.0.child.subscriber._cancel_monitor_cb
+2018-10-11 10:57:06,368: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : using addr tcp://204.90.41.4:41271 for pubsub control_pubsub
+2018-10-11 10:57:06,375: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : parent name: agent_0.staging.input.0.child.subscriber._cancel_monitor_cb
+2018-10-11 10:57:06,375: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : start thread
+2018-10-11 10:57:06,385: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : child name: agent_0.staging.input.0.child.subscriber._cancel_monitor_cb.thread
+2018-10-11 10:57:06,385: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : child (me) initializing
+2018-10-11 10:57:06,385: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 10:57:06,385: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 10:57:06,385: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : send alive
+2018-10-11 10:57:06,385: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [agent_0.staging.input.0.child.subscriber._cancel_monitor_cb.thread] alive
+2018-10-11 10:57:06,386: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : INFO    : get msg: alive
+2018-10-11 10:57:06,386: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 10:57:06,386: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 10:57:06,386: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : child thread agent_0.staging.input.0.child.subscriber._cancel_monitor_cb started
+2018-10-11 10:57:06,387: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : agent_0.staging.input.0.child registered control_pubsub subscriber agent_0.staging.input.0.child.subscriber._cancel_monitor_cb
+2018-10-11 10:57:06,387: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:57:06,387: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : using addr tcp://204.90.41.4:42183 for input agent_staging_input_queue
+2018-10-11 10:57:06,393: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : registered input agent_0.staging.input.0.child.work.AGENT_STAGING_INPUT_PENDING
+2018-10-11 10:57:06,393: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : START: agent_0.staging.input.0.child register input AGENT_STAGING_INPUT_PENDING: agent_0.staging.input.0.child.work.AGENT_STAGING_INPUT_PENDING
+2018-10-11 10:57:06,394: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : registered worker work [AGENT_STAGING_INPUT_PENDING]
+2018-10-11 10:57:06,394: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:57:06,394: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : START: agent_0.staging.input.0.child register output AGENT_SCHEDULING_PENDING
+2018-10-11 10:57:06,394: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : using addr tcp://204.90.41.4:41214 for output agent_scheduling_queue
+2018-10-11 10:57:06,400: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : registered output    : AGENT_SCHEDULING_PENDING : agent_scheduling_queue : agent.scheduling.queue.input.0000
+2018-10-11 10:57:06,400: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : INFO    : child (me) initializing
+2018-10-11 10:57:06,401: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : parent name: agent_0.staging.input.0.child.watch
+2018-10-11 10:57:06,401: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : start thread
+2018-10-11 10:57:06,411: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.watch: DEBUG   : child name: agent_0.staging.input.0.child.watch.thread
+2018-10-11 10:57:06,411: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.watch: INFO    : child (me) initializing
+2018-10-11 10:57:06,411: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.watch: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 10:57:06,411: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.watch: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 10:57:06,411: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.watch: INFO    : send alive
+2018-10-11 10:57:06,411: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.watch: INFO    : put message: [agent_0.staging.input.0.child.watch.thread] alive
+2018-10-11 10:57:06,412: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : INFO    : get msg: alive
+2018-10-11 10:57:06,412: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 10:57:06,412: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 10:57:06,412: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : child thread agent_0.staging.input.0.child.watch started
+2018-10-11 10:57:06,412: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : INFO    : child (me) is alive
+2018-10-11 10:57:06,412: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : INFO    : send alive
+2018-10-11 10:57:06,412: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : INFO    : send message: [agent_0.staging.input.0.child] alive
+2018-10-11 10:57:07,798: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000040)
+2018-10-11 10:57:07,798: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000041)
+2018-10-11 10:57:07,798: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000042)
+2018-10-11 10:57:07,798: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000043)
+2018-10-11 10:57:07,798: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000044)
+2018-10-11 10:57:07,798: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000045)
+2018-10-11 10:57:07,798: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000046)
+2018-10-11 10:57:07,798: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000047)
+2018-10-11 10:57:07,798: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000048)
+2018-10-11 10:57:07,798: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000049)
+2018-10-11 10:57:07,798: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000050)
+2018-10-11 10:57:07,798: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000051)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000052)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000053)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000054)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000055)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000056)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000057)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000058)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000059)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000060)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000061)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000062)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000063)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000064)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000065)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000066)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000067)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000068)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000069)
+2018-10-11 10:57:07,799: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000070)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000071)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000072)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000073)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000074)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000075)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000076)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000077)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000078)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000079)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000000)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000001)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000002)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000003)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000004)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000005)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000006)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000007)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000008)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000009)
+2018-10-11 10:57:07,800: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000010)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000011)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000012)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000013)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000014)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000015)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000016)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000017)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000018)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000019)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000020)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000021)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000022)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000023)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000024)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000025)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000026)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000027)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000028)
+2018-10-11 10:57:07,801: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000029)
+2018-10-11 10:57:07,802: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000030)
+2018-10-11 10:57:07,802: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000031)
+2018-10-11 10:57:07,802: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000032)
+2018-10-11 10:57:07,802: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000033)
+2018-10-11 10:57:07,802: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000034)
+2018-10-11 10:57:07,802: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000035)
+2018-10-11 10:57:07,802: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000036)
+2018-10-11 10:57:07,802: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000037)
+2018-10-11 10:57:07,802: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000038)
+2018-10-11 10:57:07,802: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : got unit (unit.000039)
+2018-10-11 10:57:07,802: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : advance bulk size: 80 [False, True]
+2018-10-11 10:57:07,807: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : advance bulk size: 80 [True, True]
+2018-10-11 10:57:07,808: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : put bulk AGENT_SCHEDULING_PENDING: 80
+2018-10-11 11:12:03,540: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : got termination command
+2018-10-11 11:12:03,629: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : stop agent_0.staging.input.0.child (15410 : 15410 : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb) [radical.pilot.utils.component.Default._cancel_monitor_cb]
+2018-10-11 11:12:03,629: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  15410 -> 15410 [agent_0.staging.input.0.child]
+2018-10-11 11:12:03,629: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : send message: [agent_0.staging.input.0.child] STOP
+2018-10-11 11:12:03,629: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_common()
+2018-10-11 11:12:03,629: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.staging.input.0.child unregister publisher log_pubsub
+2018-10-11 11:12:03,630: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher log_pubsub
+2018-10-11 11:12:03,630: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.staging.input.0.child unregister publisher state_pubsub
+2018-10-11 11:12:03,630: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher state_pubsub
+2018-10-11 11:12:03,631: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.staging.input.0.child unregister publisher control_pubsub
+2018-10-11 11:12:03,631: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher control_pubsub
+2018-10-11 11:12:03,631: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : agent_0.staging.input.0.child close prof
+2018-10-11 11:12:03,631: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.staging.input.0.child.subscriber._cancel_monitor_cb - do not join
+2018-10-11 11:12:03,632: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : child calls stop()
+2018-10-11 11:12:03,632: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 11:12:03,632: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [agent_0.staging.input.0.child.subscriber._cancel_monitor_cb.thread] terminating
+2018-10-11 11:12:03,704: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.watch: WARNING : %s died
+2018-10-11 11:12:03,704: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.watch: INFO    : watcher closes
+2018-10-11 11:12:03,704: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.watch: INFO    : put message: [agent_0.staging.input.0.child.watch.thread] work finished
+2018-10-11 11:12:03,704: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.watch: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 11:12:03,704: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.watch: DEBUG   : ru_finalize_common (NOOP)
+2018-10-11 11:12:03,704: agent_0.staging.input.0.child: agent_0.staging.input.0         : agent_0.staging.input.0.child.watch: INFO    : put message: [agent_0.staging.input.0.child.watch.thread] terminating
+2018-10-11 11:12:04,178: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : ru_finalize_common()
+2018-10-11 11:12:04,178: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : WARNING : publisher log_pubsub is not registered
+2018-10-11 11:12:04,178: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : WARNING : publisher state_pubsub is not registered
+2018-10-11 11:12:04,179: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : WARNING : publisher control_pubsub is not registered
+2018-10-11 11:12:04,179: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : agent_0.staging.input.0.child close prof
+2018-10-11 11:12:04,179: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : INFO    : send message: [agent_0.staging.input.0.child] terminating
+2018-10-11 11:12:04,179: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : WARNING : send failed ([Errno 9] Bad file descriptor) - terminate
+2018-10-11 11:12:04,179: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : INFO    : parent stops child
+2018-10-11 11:12:04,179: agent_0.staging.input.0.child: agent_0.staging.input.0         : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

@@ -1,0 +1,104 @@
+2018-10-11 11:28:55,010: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.15 |Anaconda, Inc.| (default, May 1 2018, 23:32:55) [GCC 7.2.0]
+2018-10-11 11:28:55,010: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    :                      pid/tid: 33945/MainThread
+2018-10-11 11:28:55,010: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:28:55,010: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : start process
+2018-10-11 11:28:55,284: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    : recv message: alive
+2018-10-11 11:28:55,284: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    : initialize umgr.0000.scheduling.0
+2018-10-11 11:28:55,291: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    : cfg: {'agents': {},
+ u'bridges': {u'control_pubsub': {'addr_in': 'tcp://204.90.41.4:43617',
+                                  'addr_out': 'tcp://204.90.41.4:40259',
+                                  u'bulk_size': 0,
+                                  u'log_level': u'error',
+                                  u'stall_hwm': 1},
+              u'log_pubsub': {'addr_in': 'tcp://204.90.41.4:38095',
+                              'addr_out': 'tcp://204.90.41.4:37845',
+                              u'bulk_size': 0,
+                              u'log_level': u'error',
+                              u'stall_hwm': 1},
+              u'state_pubsub': {'addr_in': 'tcp://204.90.41.4:39573',
+                                'addr_out': 'tcp://204.90.41.4:43149',
+                                u'bulk_size': 0,
+                                u'log_level': u'error',
+                                u'stall_hwm': 1},
+              u'umgr_reschedule_pubsub': {'addr_in': 'tcp://204.90.41.4:33834',
+                                          'addr_out': 'tcp://204.90.41.4:35797',
+                                          u'bulk_size': 0,
+                                          u'log_level': u'error',
+                                          u'stall_hwm': 1},
+              u'umgr_scheduling_queue': {'addr_in': 'tcp://204.90.41.4:43735',
+                                         'addr_out': 'tcp://204.90.41.4:36624',
+                                         u'bulk_size': 0,
+                                         u'log_level': u'error',
+                                         u'stall_hwm': 1},
+              u'umgr_staging_input_queue': {'addr_in': 'tcp://204.90.41.4:37798',
+                                            'addr_out': 'tcp://204.90.41.4:37350',
+                                            u'bulk_size': 0,
+                                            u'log_level': u'error',
+                                            u'stall_hwm': 1},
+              u'umgr_staging_output_queue': {'addr_in': 'tcp://204.90.41.4:35835',
+                                             'addr_out': 'tcp://204.90.41.4:37013',
+                                             u'bulk_size': 0,
+                                             u'log_level': u'error',
+                                             u'stall_hwm': 1},
+              u'umgr_unschedule_pubsub': {'addr_in': 'tcp://204.90.41.4:40088',
+                                          'addr_out': 'tcp://204.90.41.4:36284',
+                                          u'bulk_size': 0,
+                                          u'log_level': u'error',
+                                          u'stall_hwm': 1}},
+ u'bulk_collection_size': 100,
+ u'bulk_collection_time': 1.0,
+ 'cname': u'UMGRSchedulingComponent',
+ u'components': {},
+ u'count': 1,
+ u'db_poll_sleeptime': 1.0,
+ 'number': 0,
+ 'owner': 'umgr.0000',
+ u'scheduler': u'round_robin',
+ 'uid': 'umgr.0000'}
+2018-10-11 11:28:55,292: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:28:55,292: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : START: umgr.0000.scheduling.0 register publisher log_pubsub
+2018-10-11 11:28:55,292: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : using addr tcp://204.90.41.4:38095 for pubsub log_pubsub
+2018-10-11 11:28:55,294: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0005
+2018-10-11 11:28:55,294: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:28:55,294: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : START: umgr.0000.scheduling.0 register publisher state_pubsub
+2018-10-11 11:28:55,294: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : using addr tcp://204.90.41.4:39573 for pubsub state_pubsub
+2018-10-11 11:28:55,300: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0005
+2018-10-11 11:28:55,300: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:28:55,300: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : START: umgr.0000.scheduling.0 register publisher control_pubsub
+2018-10-11 11:28:55,305: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : using addr tcp://204.90.41.4:43617 for pubsub control_pubsub
+2018-10-11 11:28:55,311: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0005
+2018-10-11 11:28:55,311: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : parent name: umgr.0000.scheduling.0.watch
+2018-10-11 11:28:55,311: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : start thread
+2018-10-11 11:28:55,321: umgr.0000.scheduling.0: MainProcess                     : umgr.0000.scheduling.0.watch: DEBUG   : child name: umgr.0000.scheduling.0.watch.thread
+2018-10-11 11:28:55,321: umgr.0000.scheduling.0: MainProcess                     : umgr.0000.scheduling.0.watch: INFO    : child (me) initializing
+2018-10-11 11:28:55,321: umgr.0000.scheduling.0: MainProcess                     : umgr.0000.scheduling.0.watch: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 11:28:55,321: umgr.0000.scheduling.0: MainProcess                     : umgr.0000.scheduling.0.watch: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 11:28:55,321: umgr.0000.scheduling.0: MainProcess                     : umgr.0000.scheduling.0.watch: INFO    : send alive
+2018-10-11 11:28:55,321: umgr.0000.scheduling.0: MainProcess                     : umgr.0000.scheduling.0.watch: INFO    : put message: [umgr.0000.scheduling.0.watch.thread] alive
+2018-10-11 11:28:55,328: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    : get msg: alive
+2018-10-11 11:28:55,328: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 11:28:55,328: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 11:28:55,329: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : child thread umgr.0000.scheduling.0.watch started
+2018-10-11 11:28:55,329: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    : child is alive
+2018-10-11 11:28:55,329: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : process class started child
+2018-10-11 11:46:11,729: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    : stop umgr.0000.scheduling.0 (33945 : 34417 : MainThread) [radical.pilot.unit_manager.UnitManager.finalize_parent]
+2018-10-11 11:46:11,734: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    : parent stops child  33945 -> 34417 [umgr.0000.scheduling.0]
+2018-10-11 11:46:11,734: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    : send message: [umgr.0000.scheduling.0] STOP
+2018-10-11 11:46:11,734: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : ru_finalize_common()
+2018-10-11 11:46:11,734: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : TERM : umgr.0000.scheduling.0 unregister publisher log_pubsub
+2018-10-11 11:46:11,739: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : unregistered publisher log_pubsub
+2018-10-11 11:46:11,739: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : TERM : umgr.0000.scheduling.0 unregister publisher state_pubsub
+2018-10-11 11:46:11,742: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : unregistered publisher state_pubsub
+2018-10-11 11:46:11,742: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : TERM : umgr.0000.scheduling.0 unregister publisher control_pubsub
+2018-10-11 11:46:11,747: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : unregistered publisher control_pubsub
+2018-10-11 11:46:11,747: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : umgr.0000.scheduling.0 close prof
+2018-10-11 11:46:11,747: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    : parent stops child
+2018-10-11 11:46:11,747: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2018-10-11 11:46:11,747: umgr.0000.scheduling.0: MainProcess                     : MainThread     : DEBUG   : ru_finalize_common (NOOP)
+2018-10-11 11:46:11,845: umgr.0000.scheduling.0: MainProcess                     : umgr.0000.scheduling.0.watch: INFO    : watcher closes
+2018-10-11 11:46:11,846: umgr.0000.scheduling.0: MainProcess                     : umgr.0000.scheduling.0.watch: INFO    : put message: [umgr.0000.scheduling.0.watch.thread] work finished
+2018-10-11 11:46:11,846: umgr.0000.scheduling.0: MainProcess                     : umgr.0000.scheduling.0.watch: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 11:46:11,846: umgr.0000.scheduling.0: MainProcess                     : umgr.0000.scheduling.0.watch: DEBUG   : ru_finalize_common (NOOP)
+2018-10-11 11:46:11,846: umgr.0000.scheduling.0: MainProcess                     : umgr.0000.scheduling.0.watch: INFO    : put message: [umgr.0000.scheduling.0.watch.thread] terminating
+2018-10-11 11:46:15,500: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    : stop umgr.0000.scheduling.0 (33945 : 34417 : MainThread) [radical.pilot.utils.component.UnitManager.ru_finalize_common]
+2018-10-11 11:46:20,644: umgr.0000.scheduling.0: MainProcess                     : MainThread     : INFO    : stop umgr.0000.scheduling.0 (33945 : 34417 : MainThread) [radical.pilot.session.Session.close]

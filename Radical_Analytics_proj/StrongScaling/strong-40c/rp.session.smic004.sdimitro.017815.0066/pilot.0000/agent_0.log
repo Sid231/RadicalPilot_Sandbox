@@ -1,0 +1,1378 @@
+2018-10-11 11:30:37,468: agent_0             : MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.15 |Anaconda, Inc.| (default, May 1 2018, 23:32:55) [GCC 7.2.0]
+2018-10-11 11:30:37,473: agent_0             : MainProcess                     : MainThread     : INFO    :                      pid/tid: 43516/MainThread
+2018-10-11 11:30:37,662: agent_0             : MainProcess                     : MainThread     : INFO    : using database mongodb://aymenfja:123456789@ds127490.mlab.com:27490/radicallab
+2018-10-11 11:30:37,664: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_rice.json
+2018-10-11 11:30:37,668: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for rice.davinci_ssh
+2018-10-11 11:30:37,668: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for rice.davinci_ssh (None)
+2018-10-11 11:30:37,668: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for rice.biou_ssh
+2018-10-11 11:30:37,668: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for rice.biou_ssh (None)
+2018-10-11 11:30:37,668: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_iu.json
+2018-10-11 11:30:37,672: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for iu.bigred2_ccm_ssh
+2018-10-11 11:30:37,672: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for iu.bigred2_ccm_ssh (None)
+2018-10-11 11:30:37,672: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for iu.bigred2_aprun
+2018-10-11 11:30:37,673: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for iu.bigred2_aprun (None)
+2018-10-11 11:30:37,673: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_aliases.json
+2018-10-11 11:30:37,673: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_chameleon.json
+2018-10-11 11:30:37,675: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for chameleon.cloud_vm_yarn
+2018-10-11 11:30:37,675: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for chameleon.cloud_vm_yarn (None)
+2018-10-11 11:30:37,675: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_futuregrid.json
+2018-10-11 11:30:37,684: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for futuregrid.delta_ssh
+2018-10-11 11:30:37,685: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for futuregrid.delta_ssh (None)
+2018-10-11 11:30:37,685: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for futuregrid.india_ssh
+2018-10-11 11:30:37,685: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for futuregrid.india_ssh (None)
+2018-10-11 11:30:37,685: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for futuregrid.echo_ssh
+2018-10-11 11:30:37,686: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for futuregrid.echo_ssh (None)
+2018-10-11 11:30:37,686: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for futuregrid.xray_ccm
+2018-10-11 11:30:37,686: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for futuregrid.xray_ccm (None)
+2018-10-11 11:30:37,686: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for futuregrid.bravo_ssh
+2018-10-11 11:30:37,686: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for futuregrid.bravo_ssh (None)
+2018-10-11 11:30:37,686: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for futuregrid.xray_aprun
+2018-10-11 11:30:37,687: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for futuregrid.xray_aprun (None)
+2018-10-11 11:30:37,687: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_nersc.json
+2018-10-11 11:30:37,698: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for nersc.edison_ccm_ssh
+2018-10-11 11:30:37,698: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for nersc.edison_ccm_ssh (None)
+2018-10-11 11:30:37,698: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for nersc.hopper_orte
+2018-10-11 11:30:37,699: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for nersc.hopper_orte (None)
+2018-10-11 11:30:37,699: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for nersc.hopper_ccm_ssh
+2018-10-11 11:30:37,699: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for nersc.hopper_ccm_ssh (24)
+2018-10-11 11:30:37,699: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for nersc.edison_aprun
+2018-10-11 11:30:37,700: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for nersc.edison_aprun (None)
+2018-10-11 11:30:37,700: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for nersc.hopper_aprun
+2018-10-11 11:30:37,700: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for nersc.hopper_aprun (24)
+2018-10-11 11:30:37,700: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for nersc.edison_orte
+2018-10-11 11:30:37,701: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for nersc.edison_orte (None)
+2018-10-11 11:30:37,701: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_ncar.json
+2018-10-11 11:30:37,704: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ncar.cheyenne_mpirun
+2018-10-11 11:30:37,705: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ncar.cheyenne_mpirun (None)
+2018-10-11 11:30:37,705: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ncar.yellowstone_ssh
+2018-10-11 11:30:37,705: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ncar.yellowstone_ssh (None)
+2018-10-11 11:30:37,705: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_lrz.json
+2018-10-11 11:30:37,707: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for lrz.supermuc_ssh
+2018-10-11 11:30:37,707: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for lrz.supermuc_ssh (None)
+2018-10-11 11:30:37,708: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_osg.json
+2018-10-11 11:30:37,711: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for osg.xsede-virt-clust
+2018-10-11 11:30:37,712: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for osg.xsede-virt-clust (None)
+2018-10-11 11:30:37,712: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for osg.connect
+2018-10-11 11:30:37,712: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for osg.connect (None)
+2018-10-11 11:30:37,712: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_das4.json
+2018-10-11 11:30:37,714: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for das4.fs2_ssh
+2018-10-11 11:30:37,714: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for das4.fs2_ssh (None)
+2018-10-11 11:30:37,715: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_yale.json
+2018-10-11 11:30:37,716: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for yale.grace_ssh
+2018-10-11 11:30:37,717: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for yale.grace_ssh (None)
+2018-10-11 11:30:37,717: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_stfc.json
+2018-10-11 11:30:37,719: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for stfc.joule_runjob
+2018-10-11 11:30:37,719: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for stfc.joule_runjob (None)
+2018-10-11 11:30:37,719: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_lumc.json
+2018-10-11 11:30:37,723: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for lumc.gb-ui_ssh
+2018-10-11 11:30:37,723: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for lumc.gb-ui_ssh (None)
+2018-10-11 11:30:37,723: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for lumc.shark_ssh
+2018-10-11 11:30:37,723: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for lumc.shark_ssh (None)
+2018-10-11 11:30:37,723: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_vtarc_dt.json
+2018-10-11 11:30:37,726: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for vtarc_dt.stampede_ssh
+2018-10-11 11:30:37,726: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for vtarc_dt.stampede_ssh (None)
+2018-10-11 11:30:37,726: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_radical.json
+2018-10-11 11:30:37,731: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for radical.two
+2018-10-11 11:30:37,731: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for radical.two (None)
+2018-10-11 11:30:37,732: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for radical.tutorial
+2018-10-11 11:30:37,732: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for radical.tutorial (None)
+2018-10-11 11:30:37,732: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for radical.one
+2018-10-11 11:30:37,732: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for radical.one (None)
+2018-10-11 11:30:37,732: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_fub.json
+2018-10-11 11:30:37,734: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for fub.allegro_rsh
+2018-10-11 11:30:37,735: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for fub.allegro_rsh (None)
+2018-10-11 11:30:37,735: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_local.json
+2018-10-11 11:30:37,747: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_orte
+2018-10-11 11:30:37,747: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_orte (None)
+2018-10-11 11:30:37,748: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_anaconda
+2018-10-11 11:30:37,748: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_anaconda (8)
+2018-10-11 11:30:37,748: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_ortelib
+2018-10-11 11:30:37,748: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_ortelib (None)
+2018-10-11 11:30:37,748: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_aprun
+2018-10-11 11:30:37,749: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_aprun (8)
+2018-10-11 11:30:37,749: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost
+2018-10-11 11:30:37,749: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost (8)
+2018-10-11 11:30:37,749: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_spark
+2018-10-11 11:30:37,750: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_spark (None)
+2018-10-11 11:30:37,750: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_spark_anaconda
+2018-10-11 11:30:37,750: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_spark_anaconda (None)
+2018-10-11 11:30:37,750: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_yarn
+2018-10-11 11:30:37,750: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_yarn (None)
+2018-10-11 11:30:37,750: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_ornl.json
+2018-10-11 11:30:37,760: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.titan_orte
+2018-10-11 11:30:37,761: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.titan_orte (16)
+2018-10-11 11:30:37,761: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.titan_aprun
+2018-10-11 11:30:37,761: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.titan_aprun (None)
+2018-10-11 11:30:37,761: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.rhea
+2018-10-11 11:30:37,762: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.rhea (16)
+2018-10-11 11:30:37,762: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.rhea_aprun
+2018-10-11 11:30:37,762: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.rhea_aprun (None)
+2018-10-11 11:30:37,762: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.titan_ortelib
+2018-10-11 11:30:37,763: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.titan_ortelib (None)
+2018-10-11 11:30:37,763: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_das5.json
+2018-10-11 11:30:37,765: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for das5.fs1_ssh
+2018-10-11 11:30:37,765: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for das5.fs1_ssh (None)
+2018-10-11 11:30:37,765: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_xsede.json
+2018-10-11 11:30:37,806: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.gordon_ssh
+2018-10-11 11:30:37,807: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.gordon_ssh (None)
+2018-10-11 11:30:37,807: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.lonestar_ssh
+2018-10-11 11:30:37,807: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.lonestar_ssh (None)
+2018-10-11 11:30:37,807: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.supermic_spark
+2018-10-11 11:30:37,808: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.supermic_spark (20)
+2018-10-11 11:30:37,808: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.wrangler_yarn
+2018-10-11 11:30:37,808: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.wrangler_yarn (None)
+2018-10-11 11:30:37,808: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.blacklight_ssh
+2018-10-11 11:30:37,809: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.blacklight_ssh (16)
+2018-10-11 11:30:37,809: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.stampede_ortelib
+2018-10-11 11:30:37,809: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.stampede_ortelib (None)
+2018-10-11 11:30:37,809: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.stampede_yarn
+2018-10-11 11:30:37,810: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.stampede_yarn (None)
+2018-10-11 11:30:37,810: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.stampede_ssh
+2018-10-11 11:30:37,810: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.stampede_ssh (None)
+2018-10-11 11:30:37,810: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.greenfield
+2018-10-11 11:30:37,811: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.greenfield (15)
+2018-10-11 11:30:37,811: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.bridges
+2018-10-11 11:30:37,811: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.bridges (None)
+2018-10-11 11:30:37,811: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.trestles_ssh
+2018-10-11 11:30:37,812: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.trestles_ssh (None)
+2018-10-11 11:30:37,812: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.supermic_ortelib
+2018-10-11 11:30:37,812: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.supermic_ortelib (20)
+2018-10-11 11:30:37,812: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.stampede2_ssh
+2018-10-11 11:30:37,813: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.stampede2_ssh (68)
+2018-10-11 11:30:37,813: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.supermic_ssh
+2018-10-11 11:30:37,813: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.supermic_ssh (20)
+2018-10-11 11:30:37,813: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.wrangler_ssh
+2018-10-11 11:30:37,814: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.wrangler_ssh (None)
+2018-10-11 11:30:37,814: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.supermic_orte
+2018-10-11 11:30:37,814: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.supermic_orte (20)
+2018-10-11 11:30:37,814: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.wrangler_spark
+2018-10-11 11:30:37,815: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.wrangler_spark (None)
+2018-10-11 11:30:37,815: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.stampede_orte
+2018-10-11 11:30:37,815: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.stampede_orte (None)
+2018-10-11 11:30:37,815: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.comet_ortelib
+2018-10-11 11:30:37,816: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.comet_ortelib (24)
+2018-10-11 11:30:37,816: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.comet_orte
+2018-10-11 11:30:37,816: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.comet_orte (24)
+2018-10-11 11:30:37,816: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.comet_spark
+2018-10-11 11:30:37,816: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.comet_spark (24)
+2018-10-11 11:30:37,817: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.comet_ssh
+2018-10-11 11:30:37,817: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.comet_ssh (24)
+2018-10-11 11:30:37,817: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.stampede_spark
+2018-10-11 11:30:37,818: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.stampede_spark (None)
+2018-10-11 11:30:37,818: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_ncsa.json
+2018-10-11 11:30:37,825: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ncsa.bw_orte
+2018-10-11 11:30:37,826: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ncsa.bw_orte (None)
+2018-10-11 11:30:37,826: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ncsa.bw_ccm_ssh
+2018-10-11 11:30:37,826: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ncsa.bw_ccm_ssh (None)
+2018-10-11 11:30:37,826: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ncsa.bw_ortelib
+2018-10-11 11:30:37,827: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ncsa.bw_ortelib (None)
+2018-10-11 11:30:37,827: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ncsa.bw_aprun
+2018-10-11 11:30:37,828: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ncsa.bw_aprun (None)
+2018-10-11 11:30:37,828: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_epsrc.json
+2018-10-11 11:30:37,831: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for epsrc.archer_orte
+2018-10-11 11:30:37,832: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for epsrc.archer_orte (None)
+2018-10-11 11:30:37,832: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for epsrc.archer_aprun
+2018-10-11 11:30:37,832: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for epsrc.archer_aprun (None)
+2018-10-11 11:30:38,201: agent_0             : MainProcess                     : MainThread     : INFO    : New Session created: rp.session.smic004.sdimitro.017815.0066.
+2018-10-11 11:30:38,202: agent_0             : MainProcess                     : MainThread     : DEBUG   : start bridges   : {'agent_executing_queue': {'bulk_size': 0,
+                           'log_level': 'error',
+                           'stall_hwm': 1},
+ 'agent_schedule_pubsub': {'bulk_size': 0,
+                           'log_level': 'error',
+                           'stall_hwm': 1},
+ 'agent_scheduling_queue': {'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+ 'agent_staging_input_queue': {'bulk_size': 0,
+                               'log_level': 'error',
+                               'stall_hwm': 1},
+ 'agent_staging_output_queue': {'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+ 'agent_unschedule_pubsub': {'bulk_size': 0,
+                             'log_level': 'error',
+                             'stall_hwm': 1},
+ 'control_pubsub': {'bulk_size': 0, 'log_level': 'error', 'stall_hwm': 1},
+ 'log_pubsub': {'bulk_size': 0, 'log_level': 'error', 'stall_hwm': 1},
+ 'state_pubsub': {'bulk_size': 0, 'log_level': 'error', 'stall_hwm': 1}}
+2018-10-11 11:30:38,202: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge state_pubsub
+2018-10-11 11:30:38,238: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge state_pubsub (state.pubsub.bridge.0000)
+2018-10-11 11:30:38,238: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge agent_unschedule_pubsub
+2018-10-11 11:30:38,272: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge agent_unschedule_pubsub (agent.unschedule.pubsub.bridge.0000)
+2018-10-11 11:30:38,272: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge log_pubsub
+2018-10-11 11:30:38,305: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge log_pubsub (log.pubsub.bridge.0000)
+2018-10-11 11:30:38,306: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge agent_staging_output_queue
+2018-10-11 11:30:38,326: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge agent_staging_output_queue (agent.staging.output.queue.bridge.0000)
+2018-10-11 11:30:38,326: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge agent_schedule_pubsub
+2018-10-11 11:30:38,342: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge agent_schedule_pubsub (agent.schedule.pubsub.bridge.0000)
+2018-10-11 11:30:38,342: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge agent_scheduling_queue
+2018-10-11 11:30:38,365: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge agent_scheduling_queue (agent.scheduling.queue.bridge.0000)
+2018-10-11 11:30:38,366: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge control_pubsub
+2018-10-11 11:30:38,398: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge control_pubsub (control.pubsub.bridge.0000)
+2018-10-11 11:30:38,399: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge agent_executing_queue
+2018-10-11 11:30:38,425: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge agent_executing_queue (agent.executing.queue.bridge.0000)
+2018-10-11 11:30:38,426: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge agent_staging_input_queue
+2018-10-11 11:30:38,446: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge agent_staging_input_queue (agent.staging.input.queue.bridge.0000)
+2018-10-11 11:30:38,447: agent_0             : MainProcess                     : MainThread     : DEBUG   : start components: {}
+2018-10-11 11:30:38,447: agent_0             : MainProcess                     : MainThread     : INFO    : radical.pilot version: 0.50.8
+2018-10-11 11:30:38,447: agent_0             : MainProcess                     : MainThread     : INFO    : radical.saga  version: 0.50.0
+2018-10-11 11:30:38,447: agent_0             : MainProcess                     : MainThread     : INFO    : radical.utils version: 0.50.2
+2018-10-11 11:30:38,614: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:30:38,627: agent_0             : MainProcess                     : MainThread     : INFO    : Configuring LRMS Fork.
+2018-10-11 11:30:38,627: agent_0             : MainProcess                     : MainThread     : INFO    : Using fork on localhost.
+2018-10-11 11:30:38,627: agent_0             : MainProcess                     : MainThread     : INFO    : using 40 instead of physically available 20 cores.
+2018-10-11 11:30:38,628: agent_0             : MainProcess                     : MainThread     : DEBUG   : configure localhost as 5 nodes (8 cores, 1 gpus).
+2018-10-11 11:30:38,628: agent_0             : MainProcess                     : MainThread     : INFO    : Discovered execution environment: [['localhost', 'localhost_0'], ['localhost', 'localhost_1'], ['localhost', 'localhost_2'], ['localhost', 'localhost_3'], ['localhost', 'localhost_4']]
+2018-10-11 11:30:38,636: agent_0             : MainProcess                     : MainThread     : INFO    : no LRMS config hook defined for LaunchMethod MPIEXEC
+2018-10-11 11:30:38,636: agent_0             : MainProcess                     : MainThread     : INFO    : lrms config hook succeeded (MPIEXEC)
+2018-10-11 11:30:38,636: agent_0             : MainProcess                     : MainThread     : INFO    : call LRMS config hook for LaunchMethod FORK: <class 'radical.pilot.agent.lm.fork.Fork'>
+2018-10-11 11:30:38,636: agent_0             : MainProcess                     : MainThread     : INFO    : lrms config hook succeeded (FORK)
+2018-10-11 11:30:38,636: agent_0             : MainProcess                     : MainThread     : DEBUG   : start process
+2018-10-11 11:30:38,636: agent_0             : MainProcess                     : MainThread     : INFO    : initialize agent_0
+2018-10-11 11:30:38,643: agent_0             : MainProcess                     : MainThread     : INFO    : cfg: {'agent_launch_method': 'FORK',
+ 'agent_name': 'agent_0',
+ 'bridges': {'agent_executing_queue': {'addr_in': 'tcp://204.90.41.4:39647',
+                                       'addr_out': 'tcp://204.90.41.4:43960',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_schedule_pubsub': {'addr_in': 'tcp://204.90.41.4:42585',
+                                       'addr_out': 'tcp://204.90.41.4:41954',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_scheduling_queue': {'addr_in': 'tcp://204.90.41.4:40739',
+                                        'addr_out': 'tcp://204.90.41.4:32947',
+                                        'bulk_size': 0,
+                                        'log_level': 'error',
+                                        'stall_hwm': 1},
+             'agent_staging_input_queue': {'addr_in': 'tcp://204.90.41.4:41002',
+                                           'addr_out': 'tcp://204.90.41.4:39346',
+                                           'bulk_size': 0,
+                                           'log_level': 'error',
+                                           'stall_hwm': 1},
+             'agent_staging_output_queue': {'addr_in': 'tcp://204.90.41.4:38645',
+                                            'addr_out': 'tcp://204.90.41.4:37700',
+                                            'bulk_size': 0,
+                                            'log_level': 'error',
+                                            'stall_hwm': 1},
+             'agent_unschedule_pubsub': {'addr_in': 'tcp://204.90.41.4:44409',
+                                         'addr_out': 'tcp://204.90.41.4:36856',
+                                         'bulk_size': 0,
+                                         'log_level': 'error',
+                                         'stall_hwm': 1},
+             'control_pubsub': {'addr_in': 'tcp://204.90.41.4:38722',
+                                'addr_out': 'tcp://204.90.41.4:46522',
+                                'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+             'log_pubsub': {'addr_in': 'tcp://204.90.41.4:35064',
+                            'addr_out': 'tcp://204.90.41.4:45170',
+                            'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+             'state_pubsub': {'addr_in': 'tcp://204.90.41.4:33426',
+                              'addr_out': 'tcp://204.90.41.4:41436',
+                              'bulk_size': 0,
+                              'log_level': 'error',
+                              'stall_hwm': 1}},
+ 'bulk_collection_size': 100,
+ 'bulk_collection_time': 1.0,
+ 'components': {'AgentExecutingComponent': {'count': 1},
+                'AgentSchedulingComponent': {'count': 1},
+                'AgentStagingInputComponent': {'count': 1},
+                'AgentStagingOutputComponent': {'count': 1},
+                'UpdateWorker': {'count': 1}},
+ 'cores': 40,
+ 'cores_per_node': 8,
+ 'cu_post_exec': None,
+ 'cu_pre_exec': None,
+ 'cu_tmp': None,
+ 'db_poll_sleeptime': 1.0,
+ 'dburl': 'mongodb://aymenfja:123456789@ds127490.mlab.com:27490/radicallab',
+ 'debug': 10,
+ 'export_to_cu': None,
+ 'gpus': 0,
+ 'gpus_per_node': 1,
+ 'logdir': '.',
+ 'lrms': 'FORK',
+ 'lrms_info': {'agent_nodes': {},
+               'cores_per_node': 8,
+               'gpus_per_node': 1,
+               'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                                     'version_detail': 'There is no spoon'}}},
+               'name': 'Fork',
+               'node_list': [['localhost', 'localhost_0'],
+                             ['localhost', 'localhost_1'],
+                             ['localhost', 'localhost_2'],
+                             ['localhost', 'localhost_3'],
+                             ['localhost', 'localhost_4']]},
+ 'max_io_loglength': 1024,
+ 'mode': 'shared',
+ 'mpi_launch_method': 'MPIEXEC',
+ 'owner': 'agent_0',
+ 'pilot_id': 'pilot.0000',
+ 'pilot_sandbox': '/home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000/',
+ 'resource_cfg': {'agent_launch_method': 'FORK',
+                  'agent_scheduler': 'CONTINUOUS',
+                  'agent_spawner': 'POPEN',
+                  'cores_per_node': 8,
+                  'default_remote_workdir': '$HOME',
+                  'description': 'Your local machine.',
+                  'filesystem_endpoint': 'file://localhost/',
+                  'gpus_per_node': 1,
+                  'job_manager_endpoint': 'fork://localhost/',
+                  'label': 'local.localhost_anaconda',
+                  'local': {'filesystem_endpoint': 'file://localhost/',
+                            'job_manager_endpoint': 'fork://localhost/'},
+                  'lrms': 'FORK',
+                  'mpi_launch_method': 'MPIEXEC',
+                  'notes': 'To use the ssh schema, make sure that ssh access to localhost is enabled.',
+                  'python_dist': 'anaconda',
+                  'rp_version': 'local',
+                  'schemas': ['local', 'ssh'],
+                  'ssh': {'filesystem_endpoint': 'sftp://localhost/',
+                          'job_manager_endpoint': 'ssh://localhost/'},
+                  'task_launch_method': 'FORK',
+                  'virtenv_mode': 'create'},
+ 'resource_sandbox': '/home/sdimitro/radical.pilot.sandbox',
+ 'runtime': 15,
+ 'scheduler': 'CONTINUOUS',
+ 'session_id': 'rp.session.smic004.sdimitro.017815.0066',
+ 'session_sandbox': '/home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066',
+ 'spawner': 'POPEN',
+ 'staging_area': 'staging_area',
+ 'staging_schema': 'staging',
+ 'target': 'local',
+ 'task_launch_method': 'FORK',
+ 'workdir': '/home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0066/pilot.0000'}
+2018-10-11 11:30:38,646: agent_0             : MainProcess                     : MainThread     : DEBUG   : start bridges   : {'agent_executing_queue': {'addr_in': 'tcp://204.90.41.4:39647',
+                           'addr_out': 'tcp://204.90.41.4:43960',
+                           'bulk_size': 0,
+                           'log_level': 'error',
+                           'stall_hwm': 1},
+ 'agent_schedule_pubsub': {'addr_in': 'tcp://204.90.41.4:42585',
+                           'addr_out': 'tcp://204.90.41.4:41954',
+                           'bulk_size': 0,
+                           'log_level': 'error',
+                           'stall_hwm': 1},
+ 'agent_scheduling_queue': {'addr_in': 'tcp://204.90.41.4:40739',
+                            'addr_out': 'tcp://204.90.41.4:32947',
+                            'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+ 'agent_staging_input_queue': {'addr_in': 'tcp://204.90.41.4:41002',
+                               'addr_out': 'tcp://204.90.41.4:39346',
+                               'bulk_size': 0,
+                               'log_level': 'error',
+                               'stall_hwm': 1},
+ 'agent_staging_output_queue': {'addr_in': 'tcp://204.90.41.4:38645',
+                                'addr_out': 'tcp://204.90.41.4:37700',
+                                'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+ 'agent_unschedule_pubsub': {'addr_in': 'tcp://204.90.41.4:44409',
+                             'addr_out': 'tcp://204.90.41.4:36856',
+                             'bulk_size': 0,
+                             'log_level': 'error',
+                             'stall_hwm': 1},
+ 'control_pubsub': {'addr_in': 'tcp://204.90.41.4:38722',
+                    'addr_out': 'tcp://204.90.41.4:46522',
+                    'bulk_size': 0,
+                    'log_level': 'error',
+                    'stall_hwm': 1},
+ 'log_pubsub': {'addr_in': 'tcp://204.90.41.4:35064',
+                'addr_out': 'tcp://204.90.41.4:45170',
+                'bulk_size': 0,
+                'log_level': 'error',
+                'stall_hwm': 1},
+ 'state_pubsub': {'addr_in': 'tcp://204.90.41.4:33426',
+                  'addr_out': 'tcp://204.90.41.4:41436',
+                  'bulk_size': 0,
+                  'log_level': 'error',
+                  'stall_hwm': 1}}
+2018-10-11 11:30:38,646: agent_0             : MainProcess                     : MainThread     : DEBUG   : start components: {'AgentExecutingComponent': {'count': 1},
+ 'AgentSchedulingComponent': {'count': 1},
+ 'AgentStagingInputComponent': {'count': 1},
+ 'AgentStagingOutputComponent': {'count': 1},
+ 'UpdateWorker': {'count': 1}}
+2018-10-11 11:30:38,646: agent_0             : MainProcess                     : MainThread     : DEBUG   : start 1 component(s) AgentStagingOutputComponent
+2018-10-11 11:30:38,936: agent_0             : MainProcess                     : MainThread     : INFO    : agent_0                        starts agent_0.staging.output.0
+2018-10-11 11:30:38,937: agent_0             : MainProcess                     : MainThread     : DEBUG   : start 1 component(s) AgentSchedulingComponent
+2018-10-11 11:30:39,285: agent_0             : MainProcess                     : MainThread     : INFO    : agent_0                        starts agent_0.scheduling.0
+2018-10-11 11:30:39,285: agent_0             : MainProcess                     : MainThread     : DEBUG   : start 1 component(s) AgentStagingInputComponent
+2018-10-11 11:30:39,589: agent_0             : MainProcess                     : MainThread     : INFO    : agent_0                        starts agent_0.staging.input.0
+2018-10-11 11:30:39,589: agent_0             : MainProcess                     : MainThread     : DEBUG   : start 1 component(s) UpdateWorker
+2018-10-11 11:30:40,142: agent_0             : MainProcess                     : MainThread     : INFO    : agent_0                        starts update.0
+2018-10-11 11:30:40,142: agent_0             : MainProcess                     : MainThread     : DEBUG   : start 1 component(s) AgentExecutingComponent
+2018-10-11 11:30:40,353: agent_0             : agent_0.executing.0             : MainThread     : DEBUG   : create LM: <class 'radical.pilot.agent.lm.fork.Fork'>
+2018-10-11 11:30:40,353: agent_0             : agent_0.executing.0             : MainThread     : DEBUG   : launch_command: 
+2018-10-11 11:30:40,353: agent_0             : agent_0.executing.0             : MainThread     : DEBUG   : create LM: <class 'radical.pilot.agent.lm.mpiexec.MPIExec'>
+2018-10-11 11:30:40,377: agent_0             : agent_0.executing.0             : MainThread     : DEBUG   : mpi version:  [HYDRA]
+2018-10-11 11:30:40,378: agent_0             : agent_0.executing.0             : MainThread     : DEBUG   : launch_command: /usr/local/packages/mvapich2/2.0/INTEL-14.0.2/bin/mpiexec
+2018-10-11 11:30:40,405: agent_0             : MainProcess                     : MainThread     : INFO    : agent_0                        starts agent_0.executing.0
+2018-10-11 11:30:40,405: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:30:40,405: agent_0             : MainProcess                     : MainThread     : DEBUG   : START: agent_0 register publisher log_pubsub
+2018-10-11 11:30:40,405: agent_0             : MainProcess                     : MainThread     : DEBUG   : using addr tcp://204.90.41.4:35064 for pubsub log_pubsub
+2018-10-11 11:30:40,407: agent_0             : MainProcess                     : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0005
+2018-10-11 11:30:40,407: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:30:40,407: agent_0             : MainProcess                     : MainThread     : DEBUG   : START: agent_0 register publisher state_pubsub
+2018-10-11 11:30:40,407: agent_0             : MainProcess                     : MainThread     : DEBUG   : using addr tcp://204.90.41.4:33426 for pubsub state_pubsub
+2018-10-11 11:30:40,409: agent_0             : MainProcess                     : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0005
+2018-10-11 11:30:40,409: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:30:40,410: agent_0             : MainProcess                     : MainThread     : DEBUG   : START: agent_0 register publisher control_pubsub
+2018-10-11 11:30:40,410: agent_0             : MainProcess                     : MainThread     : DEBUG   : using addr tcp://204.90.41.4:38722 for pubsub control_pubsub
+2018-10-11 11:30:40,412: agent_0             : MainProcess                     : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0005
+2018-10-11 11:30:40,412: agent_0             : MainProcess                     : MainThread     : DEBUG   : start_sub_agents
+2018-10-11 11:30:40,412: agent_0             : MainProcess                     : MainThread     : DEBUG   : start_sub_agents noop
+2018-10-11 11:30:40,412: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:30:40,412: agent_0             : MainProcess                     : MainThread     : DEBUG   : START: agent_0 register idler agent_0.idler._agent_command_cb
+2018-10-11 11:30:40,412: agent_0             : MainProcess                     : MainThread     : DEBUG   : parent name: agent_0.idler._agent_command_cb
+2018-10-11 11:30:40,412: agent_0             : MainProcess                     : MainThread     : DEBUG   : start thread
+2018-10-11 11:30:40,418: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: DEBUG   : child name: agent_0.idler._agent_command_cb.thread
+2018-10-11 11:30:40,418: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : child (me) initializing
+2018-10-11 11:30:40,423: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 11:30:40,423: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 11:30:40,423: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : send alive
+2018-10-11 11:30:40,423: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : put message: [agent_0.idler._agent_command_cb.thread] alive
+2018-10-11 11:30:40,425: agent_0             : MainProcess                     : MainThread     : INFO    : get msg: alive
+2018-10-11 11:30:40,426: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 11:30:40,426: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 11:30:40,426: agent_0             : MainProcess                     : MainThread     : DEBUG   : child thread agent_0.idler._agent_command_cb started
+2018-10-11 11:30:40,426: agent_0             : MainProcess                     : MainThread     : DEBUG   : agent_0 registered idler agent_0.idler._agent_command_cb
+2018-10-11 11:30:40,426: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: DEBUG   : alive check in term
+2018-10-11 11:30:40,426: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:30:40,426: agent_0             : MainProcess                     : MainThread     : DEBUG   : START: agent_0 register output AGENT_STAGING_INPUT_PENDING
+2018-10-11 11:30:40,426: agent_0             : MainProcess                     : MainThread     : DEBUG   : using addr tcp://204.90.41.4:41002 for output agent_staging_input_queue
+2018-10-11 11:30:40,429: agent_0             : MainProcess                     : MainThread     : DEBUG   : registered output    : AGENT_STAGING_INPUT_PENDING : agent_staging_input_queue : agent.staging.input.queue.input.0000
+2018-10-11 11:30:40,429: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:30:40,429: agent_0             : MainProcess                     : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:30:40,429: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:30:40,429: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:30:40,429: agent_0             : MainProcess                     : MainThread     : DEBUG   : START: agent_0 register idler agent_0.idler._check_units_cb
+2018-10-11 11:30:40,464: agent_0             : MainProcess                     : MainThread     : DEBUG   : parent name: agent_0.idler._check_units_cb
+2018-10-11 11:30:40,464: agent_0             : MainProcess                     : MainThread     : DEBUG   : start thread
+2018-10-11 11:30:40,464: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : child name: agent_0.idler._check_units_cb.thread
+2018-10-11 11:30:40,464: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : child (me) initializing
+2018-10-11 11:30:40,464: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 11:30:40,464: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 11:30:40,464: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : send alive
+2018-10-11 11:30:40,464: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : put message: [agent_0.idler._check_units_cb.thread] alive
+2018-10-11 11:30:40,465: agent_0             : MainProcess                     : MainThread     : INFO    : get msg: alive
+2018-10-11 11:30:40,465: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 11:30:40,465: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 11:30:40,465: agent_0             : MainProcess                     : MainThread     : DEBUG   : child thread agent_0.idler._check_units_cb started
+2018-10-11 11:30:40,465: agent_0             : MainProcess                     : MainThread     : DEBUG   : agent_0 registered idler agent_0.idler._check_units_cb
+2018-10-11 11:30:40,465: agent_0             : MainProcess                     : MainThread     : DEBUG   : process class started (no child)
+2018-10-11 11:30:40,633: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units PULLED:   80
+2018-10-11 11:30:40,678: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:   80
+2018-10-11 11:30:40,680: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : advance bulk size: 80 [True, False]
+2018-10-11 11:30:40,681: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : put bulk AGENT_STAGING_INPUT_PENDING: 80
+2018-10-11 11:30:41,728: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:42,767: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:43,805: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:44,843: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:45,881: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:46,920: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:47,958: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:48,996: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:50,034: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:51,073: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:52,111: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:53,150: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:54,188: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:55,227: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:56,265: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:57,304: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:58,342: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:30:59,380: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:00,418: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:01,456: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:02,495: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:03,533: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:04,571: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:05,608: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:06,646: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:07,684: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:08,722: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:09,760: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:10,798: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:11,836: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:12,874: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:13,913: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:14,951: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:15,989: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:17,030: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:18,068: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:19,106: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:20,145: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:21,183: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:22,221: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:23,260: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:24,298: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:25,336: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:26,374: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:27,412: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:28,450: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:29,488: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:30,526: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:31,564: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:32,602: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:33,641: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:34,680: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:35,718: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:36,756: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:37,794: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:38,832: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:39,870: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:40,908: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:41,946: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:42,984: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:44,030: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:45,068: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:46,106: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:47,144: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:48,182: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:49,221: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:50,259: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:51,297: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:52,335: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:53,373: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:54,412: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:55,450: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:56,488: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:57,526: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:58,566: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:31:59,604: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:00,642: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:01,680: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:02,718: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:03,757: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:04,795: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:05,833: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:06,871: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:07,909: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:08,947: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:09,985: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:11,024: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:12,062: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:13,100: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:14,138: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:15,176: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:16,214: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:17,252: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:18,290: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:19,329: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:20,366: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:21,404: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:22,443: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:23,481: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:24,519: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:25,557: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:26,595: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:27,633: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:28,671: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:29,709: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:30,747: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:31,785: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:32,823: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:33,861: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:34,899: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:35,937: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:36,975: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:38,014: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:39,052: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:40,090: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:41,128: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:42,166: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:43,204: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:44,242: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:45,280: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:46,318: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:47,356: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:48,394: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:49,432: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:50,471: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:51,509: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:52,547: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:53,585: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:54,623: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:55,661: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:56,699: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:57,737: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:58,776: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:32:59,814: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:00,852: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:01,890: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:02,928: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:03,966: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:05,005: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:06,043: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:07,081: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:08,119: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:09,157: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:10,195: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:11,233: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:12,271: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:13,310: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:14,348: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:15,386: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:16,425: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:17,463: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:18,501: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:19,539: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:20,577: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:21,615: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:22,653: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:23,691: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:24,729: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:25,767: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:26,805: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:27,844: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:28,882: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:29,920: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:30,958: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:31,996: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:33,034: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:34,073: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:35,112: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:36,150: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:37,188: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:38,226: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:39,264: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:40,303: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:41,341: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:42,379: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:43,417: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:44,456: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:45,494: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:46,532: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:47,570: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:48,608: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:49,646: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:50,684: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:51,723: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:52,761: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:53,799: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:54,837: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:55,875: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:56,913: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:57,951: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:33:58,989: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:00,027: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:01,066: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:02,104: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:03,142: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:04,180: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:05,218: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:06,256: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:07,294: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:08,332: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:09,371: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:10,409: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:11,447: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:12,485: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:13,523: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:14,561: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:15,599: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:16,637: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:17,675: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:18,714: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:19,752: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:20,790: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:21,828: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:22,867: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:23,905: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:24,943: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:25,981: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:27,029: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:28,067: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:29,105: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:30,144: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:31,183: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:32,221: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:33,259: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:34,297: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:35,335: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:36,374: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:37,412: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:38,450: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:39,489: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:40,527: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:41,566: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:42,604: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:43,642: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:44,680: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:45,719: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:46,757: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:47,795: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:48,833: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:49,871: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:50,910: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:51,948: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:52,986: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:54,026: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:55,064: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:56,102: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:57,140: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:58,179: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:34:59,217: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:00,255: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:01,294: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:02,332: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:03,370: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:04,409: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:05,447: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:06,485: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:07,523: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:08,561: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:09,599: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:10,638: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:11,676: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:12,714: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:13,752: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:14,791: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:15,829: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:16,868: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:17,906: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:18,944: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:19,982: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:21,029: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:22,068: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:23,106: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:24,144: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:25,183: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:26,221: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:27,260: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:28,298: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:29,336: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:30,375: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:31,413: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:32,451: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:33,489: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:34,528: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:35,566: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:36,604: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:37,643: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:38,681: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:39,719: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:40,758: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:41,796: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:42,834: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:43,873: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:44,911: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:45,950: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:46,988: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:48,026: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:49,064: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:50,102: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:51,140: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:52,179: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:53,218: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:54,256: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:55,294: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:56,333: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:57,371: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:58,410: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:35:59,448: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:00,486: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:01,524: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:02,562: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:03,600: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:04,638: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:05,676: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:06,714: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:07,752: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:08,790: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:09,828: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:10,866: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:11,904: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:12,942: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:13,981: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:15,023: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:16,062: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:17,100: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:18,138: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:19,176: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:20,214: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:21,253: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:22,291: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:23,329: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:24,367: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:25,405: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:26,443: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:27,481: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:28,519: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:29,557: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:30,595: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:31,635: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:32,674: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:33,712: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:34,750: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:35,788: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:36,826: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:37,864: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:38,903: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:39,941: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:40,979: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:42,028: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:43,066: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:44,104: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:45,142: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:46,181: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:47,219: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:48,257: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:49,295: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:50,333: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:51,371: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:52,409: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:53,447: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:54,485: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:55,523: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:56,561: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:57,599: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:58,637: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:36:59,675: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:00,713: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:01,752: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:02,790: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:03,829: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:04,867: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:05,905: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:06,944: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:07,982: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:09,020: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:10,059: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:11,097: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:12,135: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:13,173: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:14,211: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:15,249: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:16,288: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:17,327: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:18,365: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:19,403: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:20,441: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:21,480: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:22,518: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:23,556: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:24,594: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:25,632: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:26,670: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:27,708: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:28,746: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:29,784: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:30,822: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:31,861: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:32,899: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:33,937: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:34,975: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:36,028: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:37,066: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:38,104: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:39,142: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:40,180: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:41,218: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:42,256: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:43,294: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:44,332: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:45,370: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:46,408: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:47,447: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:48,485: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:49,524: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:50,562: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:51,601: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:52,639: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:53,677: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:54,715: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:55,753: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:56,791: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:57,830: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:58,868: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:37:59,906: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:00,944: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:01,983: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:03,026: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:04,065: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:05,103: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:06,141: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:07,179: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:08,217: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:09,256: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:10,294: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:11,332: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:12,370: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:13,408: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:14,446: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:15,484: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:16,522: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:17,560: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:18,598: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:19,636: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:20,674: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:21,713: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:22,751: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:23,789: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:24,826: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:25,864: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:26,902: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:27,941: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:28,979: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:30,023: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:31,062: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:32,100: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:33,138: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:34,176: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:35,214: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:36,252: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:37,291: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:38,329: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:39,367: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:40,405: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:41,443: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:42,481: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:43,520: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:44,558: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:45,596: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:46,634: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:47,672: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:48,710: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:49,748: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:50,786: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:51,824: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:52,862: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:53,900: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:54,938: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:55,976: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:57,014: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:58,053: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:38:59,091: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:00,129: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:01,167: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:02,205: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:03,244: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:04,282: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:05,320: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:06,358: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:07,396: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:08,434: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:09,472: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:10,510: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:11,548: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:12,586: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:13,624: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:14,662: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:15,700: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:16,739: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:17,777: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:18,815: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:19,853: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:20,891: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:21,929: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:22,967: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:24,006: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:25,044: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:26,082: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:27,120: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:28,158: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:29,196: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:30,235: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:31,273: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:32,311: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:33,349: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:34,387: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:35,426: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:36,464: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:37,502: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:38,540: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:39,578: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:40,616: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:41,655: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:42,693: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:43,731: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:44,769: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:45,812: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:46,851: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:47,889: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:48,927: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:49,966: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:51,004: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:52,043: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:53,081: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:54,119: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:55,157: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:56,195: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:57,233: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:58,272: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:39:59,310: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:00,349: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:01,387: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:02,425: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:03,464: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:04,502: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:05,540: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:06,578: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:07,616: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:08,655: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:09,693: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:10,731: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:11,770: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:12,811: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:13,849: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:14,887: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:15,925: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:16,964: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:18,002: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:19,041: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:20,079: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:21,117: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:22,155: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:23,194: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:24,232: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:25,270: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:26,309: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:27,347: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:28,385: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:29,424: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:30,462: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:31,500: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:32,538: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:33,577: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:34,615: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:35,653: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:36,691: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:37,730: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:38,768: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:39,806: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:40,845: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:41,883: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:42,921: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:43,959: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:44,997: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:46,035: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:47,074: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:48,112: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:49,150: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:50,189: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:51,228: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:52,266: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:53,304: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:54,342: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:55,381: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:56,419: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:57,457: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:58,496: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:40:59,534: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:00,572: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:01,611: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:02,649: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:03,687: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:04,725: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:05,763: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:06,801: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:07,839: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:08,878: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:09,916: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:10,954: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:11,992: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:13,030: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:14,069: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:15,107: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:16,145: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:17,183: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:18,221: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:19,259: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:20,297: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:21,335: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:22,373: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:23,411: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:24,449: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:25,488: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:26,526: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:27,564: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:28,602: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:29,641: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:30,679: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:31,717: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:32,755: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:33,793: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:34,831: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:35,869: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:36,908: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:37,946: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:38,984: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:40,029: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:41,067: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:42,105: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:43,144: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:44,182: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:45,220: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:46,258: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:47,296: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:48,334: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:49,372: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:50,410: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:51,448: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:52,486: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:53,524: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:54,562: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:55,601: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:56,639: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:57,677: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:58,715: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:41:59,753: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:00,791: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:01,829: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:02,868: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:03,906: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:04,944: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:05,982: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:07,021: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:08,059: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:09,097: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:10,135: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:11,173: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:12,212: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:13,250: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:14,288: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:15,326: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:16,364: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:17,402: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:18,440: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:19,478: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:20,516: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:21,554: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:22,592: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:23,630: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:24,669: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:25,707: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:26,745: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:27,783: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:28,821: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:29,859: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:30,897: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:31,935: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:32,973: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:34,011: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:35,049: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:36,087: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:37,126: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:38,164: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:39,202: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:40,240: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:41,278: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:42,316: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:43,354: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:44,392: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:45,430: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:46,468: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:47,506: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:48,544: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:49,583: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:50,621: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:51,659: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:52,697: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:53,735: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:54,773: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:55,812: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:56,850: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:57,888: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:58,926: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:42:59,964: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:01,002: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:02,041: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:03,080: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:04,118: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:05,156: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:06,194: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:07,232: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:08,270: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:09,308: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:10,346: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:11,385: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:12,423: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:13,461: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:14,499: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:15,537: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:16,575: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:17,613: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:18,651: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:19,689: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:20,727: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:21,766: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:22,804: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:23,842: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:24,880: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:25,918: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:26,957: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:27,995: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:29,034: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:30,072: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:31,110: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:32,148: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:33,186: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:34,224: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:35,262: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:36,300: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:37,338: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:38,377: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:39,415: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:40,453: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:41,491: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:42,529: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:43,567: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:44,605: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:45,643: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:46,681: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:47,719: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:48,757: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:49,796: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:50,834: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:51,872: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:52,910: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:53,948: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:54,987: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:56,028: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:57,066: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:58,104: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:43:59,142: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:00,180: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:01,218: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:02,257: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:03,296: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:04,334: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:05,372: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:06,410: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:07,448: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:08,486: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:09,524: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:10,562: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:11,600: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:12,638: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:13,676: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:14,715: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:15,753: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:16,792: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:17,830: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:18,868: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:19,906: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:20,944: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:21,982: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:23,027: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:24,065: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:25,103: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:26,141: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:27,179: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:28,217: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:29,255: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:30,294: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:31,332: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:32,371: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:33,409: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:34,447: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:35,485: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:36,524: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:37,562: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:38,600: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:39,639: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:40,677: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:41,715: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:42,753: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:43,791: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:44,830: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:45,868: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:46,906: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:47,944: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:48,982: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:50,030: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:51,068: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:52,106: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:53,144: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:54,182: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:55,220: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:56,259: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:57,297: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:58,336: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:44:59,374: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:00,412: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:01,450: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:02,489: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:03,527: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:04,565: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:05,604: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:06,642: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:07,680: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:08,718: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:09,757: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:10,795: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:11,834: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:12,872: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:13,911: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:14,949: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:15,987: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:17,026: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:18,065: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:19,103: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:20,142: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:21,180: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:22,218: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:23,256: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:24,294: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:25,333: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:26,371: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:27,409: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:28,447: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:29,486: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:30,524: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:31,563: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:32,601: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:33,639: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:34,678: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:35,716: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:36,754: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:37,393: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : reached runtime limit (900s).
+2018-10-11 11:45:37,930: agent_0             : MainProcess                     : MainThread     : DEBUG   : final: timeout
+2018-10-11 11:45:38,060: agent_0             : MainProcess                     : MainThread     : INFO    : stop agent_0 (43516 : None : MainThread) [__main__.bootstrap_3]
+2018-10-11 11:45:38,065: agent_0             : MainProcess                     : MainThread     : INFO    : parent stops child  43516 -> None [agent_0]
+2018-10-11 11:45:38,065: agent_0             : MainProcess                     : MainThread     : INFO    : publish "terminate" cmd
+2018-10-11 11:45:38,065: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregister idler agent_0.idler._check_units_cb
+2018-10-11 11:45:38,066: agent_0             : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : update.0.child stop called
+2018-10-11 11:45:38,068: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : stop agent_0 (43516 : None : agent_0.idler._agent_command_cb) [radical.pilot.agent.agent_0.Agent_0._check_state]
+2018-10-11 11:45:38,073: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : put message: [agent_0.idler._agent_command_cb.thread] work finished
+2018-10-11 11:45:38,073: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 11:45:38,073: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: DEBUG   : ru_finalize_common (NOOP)
+2018-10-11 11:45:38,073: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : put message: [agent_0.idler._agent_command_cb.thread] terminating
+2018-10-11 11:45:38,107: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2018-10-11 11:45:38,107: agent_0             : MainProcess                     : MainThread     : INFO    : parent stops child
+2018-10-11 11:45:38,107: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2018-10-11 11:45:38,107: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_finalize_common (NOOP)
+2018-10-11 11:45:38,207: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 11:45:38,207: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : ru_finalize_common (NOOP)
+2018-10-11 11:45:38,207: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : put message: [agent_0.idler._check_units_cb.thread] terminating
+2018-10-11 11:45:38,221: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregistered idler agent_0.idler._check_units_cb
+2018-10-11 11:45:38,221: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregister output AGENT_STAGING_INPUT_PENDING
+2018-10-11 11:45:38,221: agent_0             : MainProcess                     : MainThread     : WARNING : input AGENT_STAGING_INPUT_PENDING is not registered
+2018-10-11 11:45:38,221: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregister idler agent_0.idler._agent_command_cb
+2018-10-11 11:45:38,221: agent_0             : MainProcess                     : MainThread     : INFO    : parent stops child
+2018-10-11 11:45:38,221: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2018-10-11 11:45:38,221: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_finalize_common (NOOP)
+2018-10-11 11:45:38,221: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregistered idler agent_0.idler._agent_command_cb
+2018-10-11 11:45:38,221: agent_0             : MainProcess                     : MainThread     : DEBUG   : stop    lrms <radical.pilot.agent.rm.fork.Fork object at 0x2b24fb6c4310>
+2018-10-11 11:45:38,221: agent_0             : MainProcess                     : MainThread     : INFO    : no LRMS shutdown hook defined for LaunchMethod MPIEXEC
+2018-10-11 11:45:38,221: agent_0             : MainProcess                     : MainThread     : INFO    : lrms shutdown hook succeeded (MPIEXEC)
+2018-10-11 11:45:38,222: agent_0             : MainProcess                     : MainThread     : INFO    : no LRMS shutdown hook defined for LaunchMethod FORK
+2018-10-11 11:45:38,222: agent_0             : MainProcess                     : MainThread     : INFO    : lrms shutdown hook succeeded (FORK)
+2018-10-11 11:45:38,222: agent_0             : MainProcess                     : MainThread     : DEBUG   : stopped lrms <radical.pilot.agent.rm.fork.Fork object at 0x2b24fb6c4310>
+2018-10-11 11:45:38,222: agent_0             : MainProcess                     : MainThread     : DEBUG   : final state: DONE (timeout)
+2018-10-11 11:45:38,222: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_finalize_common()
+2018-10-11 11:45:38,222: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregister publisher log_pubsub
+2018-10-11 11:45:38,223: agent_0             : MainProcess                     : MainThread     : DEBUG   : unregistered publisher log_pubsub
+2018-10-11 11:45:38,223: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregister publisher state_pubsub
+2018-10-11 11:45:38,228: agent_0             : MainProcess                     : MainThread     : DEBUG   : unregistered publisher state_pubsub
+2018-10-11 11:45:38,228: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregister publisher control_pubsub
+2018-10-11 11:45:38,229: agent_0             : MainProcess                     : MainThread     : DEBUG   : unregistered publisher control_pubsub
+2018-10-11 11:45:38,229: agent_0             : MainProcess                     : MainThread     : DEBUG   : agent_0 close prof
+2018-10-11 11:45:39,275: agent_0             : MainProcess                     : MainThread     : DEBUG   : update.0 stop called
+2018-10-11 11:45:39,304: agent_0             : MainProcess                     : MainThread     : INFO    : parent stops child
+2018-10-11 11:45:39,304: agent_0             : MainProcess                     : MainThread     : INFO    : parent stops child

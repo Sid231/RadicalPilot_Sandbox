@@ -1,0 +1,2155 @@
+{
+    "pilot": [
+        {
+            "_id": "pilot.0000", 
+            "cfg": {
+                "agent_launch_method": "FORK", 
+                "bridges": {
+                    "agent_executing_queue": {
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "agent_schedule_pubsub": {
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "agent_scheduling_queue": {
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "agent_staging_input_queue": {
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "agent_staging_output_queue": {
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "agent_unschedule_pubsub": {
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "control_pubsub": {
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "log_pubsub": {
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "state_pubsub": {
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }
+                }, 
+                "bulk_collection_size": 100, 
+                "bulk_collection_time": 1.0, 
+                "components": {
+                    "AgentExecutingComponent": {
+                        "count": 1
+                    }, 
+                    "AgentSchedulingComponent": {
+                        "count": 1
+                    }, 
+                    "AgentStagingInputComponent": {
+                        "count": 1
+                    }, 
+                    "AgentStagingOutputComponent": {
+                        "count": 1
+                    }, 
+                    "UpdateWorker": {
+                        "count": 1
+                    }
+                }, 
+                "cores": 24, 
+                "cores_per_node": 8, 
+                "cu_post_exec": null, 
+                "cu_pre_exec": null, 
+                "cu_tmp": null, 
+                "db_poll_sleeptime": 1.0, 
+                "dburl": "mongodb://aymenfja:123456789@ds127490.mlab.com:27490/radicallab", 
+                "debug": 10, 
+                "export_to_cu": null, 
+                "gpus": 0, 
+                "gpus_per_node": 1, 
+                "logdir": ".", 
+                "lrms": "FORK", 
+                "max_io_loglength": 1024, 
+                "mode": "shared", 
+                "mpi_launch_method": "MPIEXEC", 
+                "owner": "agent_0", 
+                "pilot_id": "pilot.0000", 
+                "pilot_sandbox": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+                "resource_cfg": {
+                    "agent_launch_method": "FORK", 
+                    "agent_scheduler": "CONTINUOUS", 
+                    "agent_spawner": "POPEN", 
+                    "cores_per_node": 8, 
+                    "default_remote_workdir": "$HOME", 
+                    "description": "Your local machine.", 
+                    "filesystem_endpoint": "file://localhost/", 
+                    "gpus_per_node": 1, 
+                    "job_manager_endpoint": "fork://localhost/", 
+                    "label": "local.localhost_anaconda", 
+                    "local": {
+                        "filesystem_endpoint": "file://localhost/", 
+                        "job_manager_endpoint": "fork://localhost/"
+                    }, 
+                    "lrms": "FORK", 
+                    "mpi_launch_method": "MPIEXEC", 
+                    "notes": "To use the ssh schema, make sure that ssh access to localhost is enabled.", 
+                    "python_dist": "anaconda", 
+                    "rp_version": "local", 
+                    "schemas": [
+                        "local", 
+                        "ssh"
+                    ], 
+                    "ssh": {
+                        "filesystem_endpoint": "sftp://localhost/", 
+                        "job_manager_endpoint": "ssh://localhost/"
+                    }, 
+                    "task_launch_method": "FORK", 
+                    "virtenv_mode": "create"
+                }, 
+                "resource_sandbox": "/home/ksiddhan/radical.pilot.sandbox", 
+                "runtime": 15, 
+                "scheduler": "CONTINUOUS", 
+                "session_id": "rp.session.smic002.ksiddhan.017815.0019", 
+                "session_sandbox": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019", 
+                "spawner": "POPEN", 
+                "staging_area": "staging_area", 
+                "staging_schema": "staging", 
+                "target": "local", 
+                "task_launch_method": "FORK"
+            }, 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": "pmgr", 
+            "description": {
+                "access_schema": null, 
+                "candidate_hosts": null, 
+                "cleanup": null, 
+                "cores": 20, 
+                "exit_on_error": true, 
+                "gpus": 0, 
+                "memory": null, 
+                "project": null, 
+                "queue": null, 
+                "resource": "local.localhost_anaconda", 
+                "runtime": 15, 
+                "sandbox": null
+            }, 
+            "finished": 1539275900.40386, 
+            "js_hop": "fork://localhost/", 
+            "js_url": "fork://localhost/", 
+            "log": null, 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "pmgr": "pmgr.0000", 
+            "resource": "local.localhost_anaconda", 
+            "resource_details": {
+                "lm_detail": null, 
+                "lm_info": {
+                    "FORK": {
+                        "version": "0.42", 
+                        "version_detail": "There is no spoon"
+                    }
+                }
+            }, 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "session": "rp.session.smic002.ksiddhan.017815.0019", 
+            "state": "CANCELED", 
+            "states": [
+                "NEW", 
+                "PMGR_LAUNCHING_PENDING", 
+                "PMGR_LAUNCHING", 
+                "PMGR_ACTIVE_PENDING", 
+                "PMGR_ACTIVE", 
+                "PMGR_ACTIVE", 
+                "FAILED", 
+                "CANCELED"
+            ], 
+            "stderr": null, 
+            "stdout": null, 
+            "type": "pilot", 
+            "uid": "pilot.0000", 
+            "unit_ids": [
+                "unit.000008", 
+                "unit.000006", 
+                "unit.000017", 
+                "unit.000002", 
+                "unit.000019", 
+                "unit.000009", 
+                "unit.000000", 
+                "unit.000015", 
+                "unit.000010", 
+                "unit.000014", 
+                "unit.000013", 
+                "unit.000016", 
+                "unit.000003", 
+                "unit.000011", 
+                "unit.000005", 
+                "unit.000001", 
+                "unit.000018", 
+                "unit.000004", 
+                "unit.000012", 
+                "unit.000007"
+            ]
+        }
+    ], 
+    "pmgr": [
+        {
+            "_id": "pmgr.0000", 
+            "cfg": {
+                "bridges": {
+                    "control_pubsub": {
+                        "addr_in": "tcp://204.90.41.2:44904", 
+                        "addr_out": "tcp://204.90.41.2:36456", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "log_pubsub": {
+                        "addr_in": "tcp://204.90.41.2:34428", 
+                        "addr_out": "tcp://204.90.41.2:34619", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "pmgr_launching_queue": {
+                        "addr_in": "tcp://204.90.41.2:34221", 
+                        "addr_out": "tcp://204.90.41.2:46113", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "state_pubsub": {
+                        "addr_in": "tcp://204.90.41.2:37134", 
+                        "addr_out": "tcp://204.90.41.2:42706", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }
+                }, 
+                "components": {
+                    "PMGRLaunchingComponent": {
+                        "count": 1
+                    }
+                }, 
+                "db_poll_sleeptime": 10.0, 
+                "owner": "pmgr.0000", 
+                "uid": "pmgr.0000"
+            }, 
+            "type": "pmgr", 
+            "uid": "pmgr.0000"
+        }
+    ], 
+    "session": {
+        "_id": "rp.session.smic002.ksiddhan.017815.0019", 
+        "cfg": {
+            "bridges": {
+                "control_pubsub": {
+                    "bulk_size": 0, 
+                    "log_level": "error", 
+                    "stall_hwm": 1
+                }, 
+                "log_pubsub": {
+                    "bulk_size": 0, 
+                    "log_level": "error", 
+                    "stall_hwm": 1
+                }, 
+                "state_pubsub": {
+                    "bulk_size": 0, 
+                    "log_level": "error", 
+                    "stall_hwm": 1
+                }
+            }, 
+            "components": {
+                "UpdateWorker": {
+                    "count": 1
+                }
+            }, 
+            "dburl": "mongodb://aymenfja:123456789@ds127490.mlab.com:27490/radicallab", 
+            "default_dburl": "mongodb://rp:rp@ds015335.mlab.com:15335/rp", 
+            "logdir": "/home/ksiddhan/rp.session.smic002.ksiddhan.017815.0019", 
+            "owner": "rp.session.smic002.ksiddhan.017815.0019", 
+            "session_id": "rp.session.smic002.ksiddhan.017815.0019"
+        }, 
+        "connected": 1539275049.08767, 
+        "created": 1539275048.780202, 
+        "metadata": [
+            {
+                "radical_stack": {
+                    "py": "2.7.15 |Anaconda, Inc.| (default, May  1 2018, 23:32:55)  [GCC 7.2.0]", 
+                    "rp": "0.50.8", 
+                    "rs": "0.50.0", 
+                    "ru": "0.50.2"
+                }
+            }, 
+            {
+                "radical_stack": {
+                    "py": "2.7.15 |Anaconda, Inc.| (default, Oct 10 2018, 21:32:13)  [GCC 7.3.0]", 
+                    "rp": "0.50.8", 
+                    "rs": "0.50.0", 
+                    "ru": "0.50.2"
+                }
+            }
+        ], 
+        "type": "session", 
+        "uid": "rp.session.smic002.ksiddhan.017815.0019"
+    }, 
+    "umgr": [
+        {
+            "_id": "umgr.0000", 
+            "cfg": {
+                "bridges": {
+                    "control_pubsub": {
+                        "addr_in": "tcp://204.90.41.2:44904", 
+                        "addr_out": "tcp://204.90.41.2:36456", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "log_pubsub": {
+                        "addr_in": "tcp://204.90.41.2:34428", 
+                        "addr_out": "tcp://204.90.41.2:34619", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "state_pubsub": {
+                        "addr_in": "tcp://204.90.41.2:37134", 
+                        "addr_out": "tcp://204.90.41.2:42706", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "umgr_reschedule_pubsub": {
+                        "addr_in": "tcp://204.90.41.2:38785", 
+                        "addr_out": "tcp://204.90.41.2:33770", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "umgr_scheduling_queue": {
+                        "addr_in": "tcp://204.90.41.2:42981", 
+                        "addr_out": "tcp://204.90.41.2:46058", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "umgr_staging_input_queue": {
+                        "addr_in": "tcp://204.90.41.2:36357", 
+                        "addr_out": "tcp://204.90.41.2:33333", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "umgr_staging_output_queue": {
+                        "addr_in": "tcp://204.90.41.2:45689", 
+                        "addr_out": "tcp://204.90.41.2:34711", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "umgr_unschedule_pubsub": {
+                        "addr_in": "tcp://204.90.41.2:45474", 
+                        "addr_out": "tcp://204.90.41.2:44331", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }
+                }, 
+                "bulk_collection_size": 100, 
+                "bulk_collection_time": 1.0, 
+                "components": {
+                    "UMGRSchedulingComponent": {
+                        "count": 1
+                    }, 
+                    "UMGRStagingInputComponent": {
+                        "count": 1
+                    }, 
+                    "UMGRStagingOutputComponent": {
+                        "count": 1
+                    }
+                }, 
+                "db_poll_sleeptime": 1.0, 
+                "owner": "umgr.0000", 
+                "scheduler": "round_robin", 
+                "uid": "umgr.0000"
+            }, 
+            "type": "umgr", 
+            "uid": "umgr.0000"
+        }
+    ], 
+    "unit": [
+        {
+            "_id": "unit.000008", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 328s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_0", 
+                        [
+                            [
+                                2
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000008/STDERR", 
+            "stdout": "stress: info: [62676] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62676] using backoff sleep of 3000us\nstress: dbug: [62676] setting timeout to 328s\nstress: dbug: [62676] --> hogcpu worker 1 [62677] forked\nstress: dbug: [62676] <-- worker 62677 signalled normally\nstress: info: [62676] successful run completed in 328s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000008/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000008", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000008/"
+        }, 
+        {
+            "_id": "unit.000006", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 339s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_0", 
+                        [
+                            [
+                                0
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000006/STDERR", 
+            "stdout": "stress: info: [62664] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62664] using backoff sleep of 3000us\nstress: dbug: [62664] setting timeout to 339s\nstress: dbug: [62664] --> hogcpu worker 1 [62665] forked\nstress: dbug: [62664] <-- worker 62665 signalled normally\nstress: info: [62664] successful run completed in 339s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000006/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000006", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000006/"
+        }, 
+        {
+            "_id": "unit.000017", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 342s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_1", 
+                        [
+                            [
+                                3
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000017/STDERR", 
+            "stdout": "stress: info: [62730] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62730] using backoff sleep of 3000us\nstress: dbug: [62730] setting timeout to 342s\nstress: dbug: [62730] --> hogcpu worker 1 [62731] forked\nstress: dbug: [62730] <-- worker 62731 signalled normally\nstress: info: [62730] successful run completed in 342s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000017/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000017", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000017/"
+        }, 
+        {
+            "_id": "unit.000002", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 372s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_2", 
+                        [
+                            [
+                                0
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000002/STDERR", 
+            "stdout": "stress: info: [62760] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62760] using backoff sleep of 3000us\nstress: dbug: [62760] setting timeout to 372s\nstress: dbug: [62760] --> hogcpu worker 1 [62761] forked\nstress: dbug: [62760] <-- worker 62761 signalled normally\nstress: info: [62760] successful run completed in 372s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000002/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000002", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000002/"
+        }, 
+        {
+            "_id": "unit.000019", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 409s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_1", 
+                        [
+                            [
+                                5
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000019/STDERR", 
+            "stdout": "stress: info: [62742] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62742] using backoff sleep of 3000us\nstress: dbug: [62742] setting timeout to 409s\nstress: dbug: [62742] --> hogcpu worker 1 [62743] forked\nstress: dbug: [62742] <-- worker 62743 signalled normally\nstress: info: [62742] successful run completed in 409s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000019/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000019", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000019/"
+        }, 
+        {
+            "_id": "unit.000009", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 426s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_0", 
+                        [
+                            [
+                                3
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000009/STDERR", 
+            "stdout": "stress: info: [62682] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62682] using backoff sleep of 3000us\nstress: dbug: [62682] setting timeout to 426s\nstress: dbug: [62682] --> hogcpu worker 1 [62683] forked\nstress: dbug: [62682] <-- worker 62683 signalled normally\nstress: info: [62682] successful run completed in 426s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000009/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000009", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000009/"
+        }, 
+        {
+            "_id": "unit.000000", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 467s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_1", 
+                        [
+                            [
+                                6
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000000/STDERR", 
+            "stdout": "stress: info: [62748] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62748] using backoff sleep of 3000us\nstress: dbug: [62748] setting timeout to 467s\nstress: dbug: [62748] --> hogcpu worker 1 [62749] forked\nstress: dbug: [62748] <-- worker 62749 signalled normally\nstress: info: [62748] successful run completed in 467s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000000/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000000", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000000/"
+        }, 
+        {
+            "_id": "unit.000015", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 475s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_1", 
+                        [
+                            [
+                                1
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000015/STDERR", 
+            "stdout": "stress: info: [62718] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62718] using backoff sleep of 3000us\nstress: dbug: [62718] setting timeout to 475s\nstress: dbug: [62718] --> hogcpu worker 1 [62719] forked\nstress: dbug: [62718] <-- worker 62719 signalled normally\nstress: info: [62718] successful run completed in 475s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000015/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000015", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000015/"
+        }, 
+        {
+            "_id": "unit.000010", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 522s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_0", 
+                        [
+                            [
+                                4
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000010/STDERR", 
+            "stdout": "stress: info: [62688] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62688] using backoff sleep of 3000us\nstress: dbug: [62688] setting timeout to 522s\nstress: dbug: [62688] --> hogcpu worker 1 [62689] forked\nstress: dbug: [62688] <-- worker 62689 signalled normally\nstress: info: [62688] successful run completed in 522s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000010/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000010", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000010/"
+        }, 
+        {
+            "_id": "unit.000014", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 522s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_1", 
+                        [
+                            [
+                                0
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000014/STDERR", 
+            "stdout": "stress: info: [62712] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62712] using backoff sleep of 3000us\nstress: dbug: [62712] setting timeout to 522s\nstress: dbug: [62712] --> hogcpu worker 1 [62713] forked\nstress: dbug: [62712] <-- worker 62713 signalled normally\nstress: info: [62712] successful run completed in 522s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000014/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000014", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000014/"
+        }, 
+        {
+            "_id": "unit.000013", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 531s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_0", 
+                        [
+                            [
+                                7
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000013/STDERR", 
+            "stdout": "stress: info: [62706] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62706] using backoff sleep of 3000us\nstress: dbug: [62706] setting timeout to 531s\nstress: dbug: [62706] --> hogcpu worker 1 [62707] forked\nstress: dbug: [62706] <-- worker 62707 signalled normally\nstress: info: [62706] successful run completed in 531s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000013/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000013", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000013/"
+        }, 
+        {
+            "_id": "unit.000016", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 545s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_1", 
+                        [
+                            [
+                                2
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000016/STDERR", 
+            "stdout": "stress: info: [62724] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62724] using backoff sleep of 3000us\nstress: dbug: [62724] setting timeout to 545s\nstress: dbug: [62724] --> hogcpu worker 1 [62725] forked\nstress: dbug: [62724] <-- worker 62725 signalled normally\nstress: info: [62724] successful run completed in 545s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000016/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000016", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000016/"
+        }, 
+        {
+            "_id": "unit.000003", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 552s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_2", 
+                        [
+                            [
+                                1
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000003/STDERR", 
+            "stdout": "stress: info: [62769] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62769] using backoff sleep of 3000us\nstress: dbug: [62769] setting timeout to 552s\nstress: dbug: [62769] --> hogcpu worker 1 [62771] forked\nstress: dbug: [62769] <-- worker 62771 signalled normally\nstress: info: [62769] successful run completed in 552s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000003/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000003", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000003/"
+        }, 
+        {
+            "_id": "unit.000011", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 601s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_0", 
+                        [
+                            [
+                                5
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000011/STDERR", 
+            "stdout": "stress: info: [62694] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62694] using backoff sleep of 3000us\nstress: dbug: [62694] setting timeout to 601s\nstress: dbug: [62694] --> hogcpu worker 1 [62695] forked\nstress: dbug: [62694] <-- worker 62695 signalled normally\nstress: info: [62694] successful run completed in 601s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000011/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000011", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000011/"
+        }, 
+        {
+            "_id": "unit.000005", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 681s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_2", 
+                        [
+                            [
+                                3
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000005/STDERR", 
+            "stdout": "stress: info: [62777] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62777] using backoff sleep of 3000us\nstress: dbug: [62777] setting timeout to 681s\nstress: dbug: [62777] --> hogcpu worker 1 [62778] forked\nstress: dbug: [62777] <-- worker 62778 signalled normally\nstress: info: [62777] successful run completed in 681s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000005/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000005", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000005/"
+        }, 
+        {
+            "_id": "unit.000001", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 716s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_1", 
+                        [
+                            [
+                                7
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000001/STDERR", 
+            "stdout": "stress: info: [62754] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62754] using backoff sleep of 3000us\nstress: dbug: [62754] setting timeout to 716s\nstress: dbug: [62754] --> hogcpu worker 1 [62755] forked\nstress: dbug: [62754] <-- worker 62755 signalled normally\nstress: info: [62754] successful run completed in 716s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000001/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000001", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000001/"
+        }, 
+        {
+            "_id": "unit.000018", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 783s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_1", 
+                        [
+                            [
+                                4
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000018/STDERR", 
+            "stdout": "stress: info: [62736] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62736] using backoff sleep of 3000us\nstress: dbug: [62736] setting timeout to 783s\nstress: dbug: [62736] --> hogcpu worker 1 [62737] forked\nstress: dbug: [62736] <-- worker 62737 signalled normally\nstress: info: [62736] successful run completed in 783s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000018/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000018", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000018/"
+        }, 
+        {
+            "_id": "unit.000004", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 806s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_2", 
+                        [
+                            [
+                                2
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000004/STDERR", 
+            "stdout": "stress: info: [62772] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62772] using backoff sleep of 3000us\nstress: dbug: [62772] setting timeout to 806s\nstress: dbug: [62772] --> hogcpu worker 1 [62773] forked\nstress: dbug: [62772] <-- worker 62773 signalled normally\nstress: info: [62772] successful run completed in 806s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000004/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000004", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000004/"
+        }, 
+        {
+            "_id": "unit.000012", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 815s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_0", 
+                        [
+                            [
+                                6
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000012/STDERR", 
+            "stdout": "stress: info: [62700] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62700] using backoff sleep of 3000us\nstress: dbug: [62700] setting timeout to 815s\nstress: dbug: [62700] --> hogcpu worker 1 [62701] forked\nstress: dbug: [62700] <-- worker 62701 signalled normally\nstress: info: [62700] successful run completed in 815s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000012/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000012", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000012/"
+        }, 
+        {
+            "_id": "unit.000007", 
+            "client_sandbox": "/home/ksiddhan", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [], 
+                "cleanup": false, 
+                "cpu_process_type": "OpenMP", 
+                "cpu_processes": 1, 
+                "cpu_thread_type": "OpenMP", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "stress --cpu 1 --timeout 822s --verbose", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [], 
+                "kernel": "", 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "stderr": "", 
+                "stdout": ""
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/", 
+            "resource_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 8, 
+                "gpus_per_node": 1, 
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42", 
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                }, 
+                "nodes": [
+                    [
+                        "localhost", 
+                        "localhost_0", 
+                        [
+                            [
+                                1
+                            ]
+                        ], 
+                        []
+                    ]
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "", 
+            "stderr_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000007/STDERR", 
+            "stdout": "stress: info: [62670] dispatching hogs: 1 cpu, 0 io, 0 vm, 0 hdd\nstress: dbug: [62670] using backoff sleep of 3000us\nstress: dbug: [62670] setting timeout to 822s\nstress: dbug: [62670] --> hogcpu worker 1 [62671] forked\nstress: dbug: [62670] <-- worker 62671 signalled normally\nstress: info: [62670] successful run completed in 822s\n", 
+            "stdout_file": "/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000/unit.000007/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000007", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "file://localhost/home/ksiddhan/radical.pilot.sandbox/rp.session.smic002.ksiddhan.017815.0019/pilot.0000//unit.000007/"
+        }
+    ]
+}

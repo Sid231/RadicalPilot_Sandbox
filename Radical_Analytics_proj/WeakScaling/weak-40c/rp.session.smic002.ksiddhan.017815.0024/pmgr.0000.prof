@@ -1,0 +1,17 @@
+#time,event,comp,thread,uid,state,msg
+1539279667.5316,sync_abs,pmgr.0000,MainThread,,,smic002:204.90.41.2:1539279667.46:1539279667.46:ntp
+1539279667.8164,component_init,pmgr.0000,MainThread,,,
+1539279667.8993,setup_done,pmgr.0000,MainThread,pmgr.0000,,
+1539279668.7287,advance,pmgr.0000,MainThread,pilot.0000,NEW,
+1539279668.7667,advance,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1539279668.7669,publish,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1539279668.7671,put,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,pmgr.launching.queue.input.0000
+1539279668.7689,advance,pmgr.0000,pmgr.0000.subscriber._state_sub_cb,pilot.0000,PMGR_LAUNCHING,
+1539279675.2655,advance,pmgr.0000,pmgr.0000.subscriber._state_sub_cb,pilot.0000,PMGR_ACTIVE_PENDING,
+1539279688.0463,advance,pmgr.0000,pmgr.0000.idler._state_pull_cb,pilot.0000,PMGR_ACTIVE,
+1539279688.0466,publish,pmgr.0000,pmgr.0000.idler._state_pull_cb,pilot.0000,PMGR_ACTIVE,
+1539280539.9373,flush,pmgr.0000,MainThread,,,
+1539280539.9378,advance,pmgr.0000,MainThread,pilot.0000,FAILED,
+1539280539.9379,publish,pmgr.0000,MainThread,pilot.0000,FAILED,
+1539280542.8931,component_final,pmgr.0000,MainThread,,,
+1539280542.8931,END,pmgr.0000,MainThread,,,

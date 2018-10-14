@@ -1,0 +1,814 @@
+2018-10-11 10:20:21,958: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : python.interpreter   version: 2.7.15 |Anaconda, Inc.| (default, May 1 2018, 23:32:55) [GCC 7.2.0]
+2018-10-11 10:20:21,959: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    :                      pid/tid: 112799/MainThread
+2018-10-11 10:20:21,959: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : initialize agent_0.scheduling.0.child
+2018-10-11 10:20:21,965: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : cfg: {'agent_launch_method': 'FORK',
+ 'agent_name': 'agent_0',
+ 'agents': {},
+ 'bridges': {'agent_executing_queue': {'addr_in': 'tcp://204.90.41.4:42684',
+                                       'addr_out': 'tcp://204.90.41.4:43114',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_schedule_pubsub': {'addr_in': 'tcp://204.90.41.4:39732',
+                                       'addr_out': 'tcp://204.90.41.4:37243',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_scheduling_queue': {'addr_in': 'tcp://204.90.41.4:35249',
+                                        'addr_out': 'tcp://204.90.41.4:36864',
+                                        'bulk_size': 0,
+                                        'log_level': 'error',
+                                        'stall_hwm': 1},
+             'agent_staging_input_queue': {'addr_in': 'tcp://204.90.41.4:43138',
+                                           'addr_out': 'tcp://204.90.41.4:44439',
+                                           'bulk_size': 0,
+                                           'log_level': 'error',
+                                           'stall_hwm': 1},
+             'agent_staging_output_queue': {'addr_in': 'tcp://204.90.41.4:46265',
+                                            'addr_out': 'tcp://204.90.41.4:40090',
+                                            'bulk_size': 0,
+                                            'log_level': 'error',
+                                            'stall_hwm': 1},
+             'agent_unschedule_pubsub': {'addr_in': 'tcp://204.90.41.4:41295',
+                                         'addr_out': 'tcp://204.90.41.4:44931',
+                                         'bulk_size': 0,
+                                         'log_level': 'error',
+                                         'stall_hwm': 1},
+             'control_pubsub': {'addr_in': 'tcp://204.90.41.4:33408',
+                                'addr_out': 'tcp://204.90.41.4:36563',
+                                'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+             'log_pubsub': {'addr_in': 'tcp://204.90.41.4:35643',
+                            'addr_out': 'tcp://204.90.41.4:34414',
+                            'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+             'state_pubsub': {'addr_in': 'tcp://204.90.41.4:40845',
+                              'addr_out': 'tcp://204.90.41.4:45752',
+                              'bulk_size': 0,
+                              'log_level': 'error',
+                              'stall_hwm': 1}},
+ 'bulk_collection_size': 100,
+ 'bulk_collection_time': 1.0,
+ 'cname': 'AgentSchedulingComponent',
+ 'components': {},
+ 'cores': 24,
+ 'cores_per_node': 8,
+ 'count': 1,
+ 'cu_post_exec': None,
+ 'cu_pre_exec': None,
+ 'cu_tmp': None,
+ 'db_poll_sleeptime': 1.0,
+ 'dburl': 'mongodb://aymenfja:123456789@ds127490.mlab.com:27490/radicallab',
+ 'debug': 10,
+ 'export_to_cu': None,
+ 'gpus': 0,
+ 'gpus_per_node': 1,
+ 'logdir': '.',
+ 'lrms': 'FORK',
+ 'lrms_info': {'agent_nodes': {},
+               'cores_per_node': 8,
+               'gpus_per_node': 1,
+               'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                                     'version_detail': 'There is no spoon'}}},
+               'name': 'Fork',
+               'node_list': [['localhost', 'localhost_0'],
+                             ['localhost', 'localhost_1'],
+                             ['localhost', 'localhost_2']]},
+ 'max_io_loglength': 1024,
+ 'mode': 'shared',
+ 'mpi_launch_method': 'MPIEXEC',
+ 'number': 0,
+ 'owner': 'agent_0',
+ 'pilot_id': 'pilot.0000',
+ 'pilot_sandbox': '/home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0062/pilot.0000/',
+ 'resource_cfg': {'agent_launch_method': 'FORK',
+                  'agent_scheduler': 'CONTINUOUS',
+                  'agent_spawner': 'POPEN',
+                  'cores_per_node': 8,
+                  'default_remote_workdir': '$HOME',
+                  'description': 'Your local machine.',
+                  'filesystem_endpoint': 'file://localhost/',
+                  'gpus_per_node': 1,
+                  'job_manager_endpoint': 'fork://localhost/',
+                  'label': 'local.localhost_anaconda',
+                  'local': {'filesystem_endpoint': 'file://localhost/',
+                            'job_manager_endpoint': 'fork://localhost/'},
+                  'lrms': 'FORK',
+                  'mpi_launch_method': 'MPIEXEC',
+                  'notes': 'To use the ssh schema, make sure that ssh access to localhost is enabled.',
+                  'python_dist': 'anaconda',
+                  'rp_version': 'local',
+                  'schemas': ['local', 'ssh'],
+                  'ssh': {'filesystem_endpoint': 'sftp://localhost/',
+                          'job_manager_endpoint': 'ssh://localhost/'},
+                  'task_launch_method': 'FORK',
+                  'virtenv_mode': 'create'},
+ 'resource_sandbox': '/home/sdimitro/radical.pilot.sandbox',
+ 'runtime': 15,
+ 'scheduler': 'CONTINUOUS',
+ 'session_id': 'rp.session.smic004.sdimitro.017815.0062',
+ 'session_sandbox': '/home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0062',
+ 'spawner': 'POPEN',
+ 'staging_area': 'staging_area',
+ 'staging_schema': 'staging',
+ 'target': 'local',
+ 'task_launch_method': 'FORK',
+ 'uid': 'agent_0',
+ 'workdir': '/home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0062/pilot.0000'}
+2018-10-11 10:20:21,965: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start components: {}
+2018-10-11 10:20:21,965: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:20:21,965: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register publisher log_pubsub
+2018-10-11 10:20:21,965: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://204.90.41.4:35643 for pubsub log_pubsub
+2018-10-11 10:20:21,967: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0001
+2018-10-11 10:20:21,967: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:20:21,967: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register publisher state_pubsub
+2018-10-11 10:20:21,968: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://204.90.41.4:40845 for pubsub state_pubsub
+2018-10-11 10:20:21,969: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0001
+2018-10-11 10:20:21,969: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:20:21,970: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register publisher control_pubsub
+2018-10-11 10:20:21,970: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://204.90.41.4:33408 for pubsub control_pubsub
+2018-10-11 10:20:21,971: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0001
+2018-10-11 10:20:21,972: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:20:21,972: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register subscriber agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2018-10-11 10:20:21,972: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://204.90.41.4:36563 for pubsub control_pubsub
+2018-10-11 10:20:21,974: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : parent name: agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2018-10-11 10:20:21,974: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start thread
+2018-10-11 10:20:21,975: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : child name: agent_0.scheduling.0.child.subscriber._cancel_monitor_cb.thread
+2018-10-11 10:20:21,975: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : child (me) initializing
+2018-10-11 10:20:21,975: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 10:20:21,975: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 10:20:21,975: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : send alive
+2018-10-11 10:20:21,975: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber._cancel_monitor_cb.thread] alive
+2018-10-11 10:20:21,976: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : get msg: alive
+2018-10-11 10:20:21,976: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 10:20:21,976: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 10:20:21,976: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : child thread agent_0.scheduling.0.child.subscriber._cancel_monitor_cb started
+2018-10-11 10:20:21,976: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : agent_0.scheduling.0.child registered control_pubsub subscriber agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2018-10-11 10:20:21,976: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:20:21,976: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://204.90.41.4:36864 for input agent_scheduling_queue
+2018-10-11 10:20:21,978: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered input agent_0.scheduling.0.child._schedule_units.AGENT_SCHEDULING_PENDING
+2018-10-11 10:20:21,978: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register input AGENT_SCHEDULING_PENDING: agent_0.scheduling.0.child._schedule_units.AGENT_SCHEDULING_PENDING
+2018-10-11 10:20:21,978: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered worker _schedule_units [AGENT_SCHEDULING_PENDING]
+2018-10-11 10:20:21,978: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:20:21,978: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register output AGENT_EXECUTING_PENDING
+2018-10-11 10:20:21,978: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://204.90.41.4:42684 for output agent_executing_queue
+2018-10-11 10:20:21,980: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered output    : AGENT_EXECUTING_PENDING : agent_executing_queue : agent.executing.queue.input.0000
+2018-10-11 10:20:21,980: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:20:21,980: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register subscriber agent_0.scheduling.0.child.subscriber.unschedule_cb
+2018-10-11 10:20:21,980: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://204.90.41.4:44931 for pubsub agent_unschedule_pubsub
+2018-10-11 10:20:21,982: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : parent name: agent_0.scheduling.0.child.subscriber.unschedule_cb
+2018-10-11 10:20:21,983: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start thread
+2018-10-11 10:20:21,983: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : child name: agent_0.scheduling.0.child.subscriber.unschedule_cb.thread
+2018-10-11 10:20:21,983: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : child (me) initializing
+2018-10-11 10:20:21,983: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 10:20:21,983: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 10:20:21,983: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : send alive
+2018-10-11 10:20:21,983: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber.unschedule_cb.thread] alive
+2018-10-11 10:20:21,984: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : get msg: alive
+2018-10-11 10:20:21,984: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 10:20:21,984: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 10:20:21,984: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : child thread agent_0.scheduling.0.child.subscriber.unschedule_cb started
+2018-10-11 10:20:21,984: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : agent_0.scheduling.0.child registered agent_unschedule_pubsub subscriber agent_0.scheduling.0.child.subscriber.unschedule_cb
+2018-10-11 10:20:21,984: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:20:21,984: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register publisher agent_schedule_pubsub
+2018-10-11 10:20:21,984: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://204.90.41.4:39732 for pubsub agent_schedule_pubsub
+2018-10-11 10:20:21,986: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered publisher : agent_schedule_pubsub : agent.schedule.pubsub.pub.0000
+2018-10-11 10:20:21,986: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2018-10-11 10:20:21,986: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register subscriber agent_0.scheduling.0.child.subscriber.schedule_cb
+2018-10-11 10:20:21,987: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://204.90.41.4:37243 for pubsub agent_schedule_pubsub
+2018-10-11 10:20:21,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : parent name: agent_0.scheduling.0.child.subscriber.schedule_cb
+2018-10-11 10:20:21,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start thread
+2018-10-11 10:20:21,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : child name: agent_0.scheduling.0.child.subscriber.schedule_cb.thread
+2018-10-11 10:20:21,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : child (me) initializing
+2018-10-11 10:20:21,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 10:20:21,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 10:20:21,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : send alive
+2018-10-11 10:20:21,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber.schedule_cb.thread] alive
+2018-10-11 10:20:21,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : get msg: alive
+2018-10-11 10:20:21,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 10:20:21,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 10:20:21,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : child thread agent_0.scheduling.0.child.subscriber.schedule_cb started
+2018-10-11 10:20:21,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : agent_0.scheduling.0.child registered agent_schedule_pubsub subscriber agent_0.scheduling.0.child.subscriber.schedule_cb
+2018-10-11 10:20:21,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : slot status after  init      : |--------:-|--------:-|--------:-|
+2018-10-11 10:20:21,991: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : child (me) initializing
+2018-10-11 10:20:21,991: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : parent name: agent_0.scheduling.0.child.watch
+2018-10-11 10:20:21,991: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start thread
+2018-10-11 10:20:21,991: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : child name: agent_0.scheduling.0.child.watch.thread
+2018-10-11 10:20:21,991: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : child (me) initializing
+2018-10-11 10:20:21,991: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 10:20:21,991: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 10:20:21,991: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : send alive
+2018-10-11 10:20:21,991: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : put message: [agent_0.scheduling.0.child.watch.thread] alive
+2018-10-11 10:20:21,992: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : get msg: alive
+2018-10-11 10:20:21,992: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 10:20:21,992: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 10:20:21,992: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : child thread agent_0.scheduling.0.child.watch started
+2018-10-11 10:20:21,992: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : child (me) is alive
+2018-10-11 10:20:21,992: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : send alive
+2018-10-11 10:20:21,992: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : send message: [agent_0.scheduling.0.child] alive
+2018-10-11 10:20:23,363: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000040)
+2018-10-11 10:20:23,363: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000041)
+2018-10-11 10:20:23,363: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000042)
+2018-10-11 10:20:23,363: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000043)
+2018-10-11 10:20:23,363: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000044)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000045)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000046)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000047)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000048)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000049)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000050)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000051)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000052)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000053)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000054)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000055)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000056)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000057)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000058)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000059)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000060)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000061)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000062)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000063)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000064)
+2018-10-11 10:20:23,364: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000065)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000066)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000067)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000068)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000069)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000070)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000071)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000072)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000073)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000074)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000075)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000076)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000077)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000078)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000079)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000000)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000001)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000002)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000003)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000004)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000005)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000006)
+2018-10-11 10:20:23,365: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000007)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000008)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000009)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000010)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000011)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000012)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000013)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000014)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000015)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000016)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000017)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000018)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000019)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000020)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000021)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000022)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000023)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000024)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000025)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000026)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000027)
+2018-10-11 10:20:23,366: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000028)
+2018-10-11 10:20:23,367: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000029)
+2018-10-11 10:20:23,367: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000030)
+2018-10-11 10:20:23,367: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000031)
+2018-10-11 10:20:23,367: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000032)
+2018-10-11 10:20:23,367: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000033)
+2018-10-11 10:20:23,367: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000034)
+2018-10-11 10:20:23,367: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000035)
+2018-10-11 10:20:23,367: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000036)
+2018-10-11 10:20:23,367: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000037)
+2018-10-11 10:20:23,367: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000038)
+2018-10-11 10:20:23,367: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000039)
+2018-10-11 10:20:23,367: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 80 [False, True]
+2018-10-11 10:20:23,368: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000040: |#-------:-|--------:-|--------:-|
+2018-10-11 10:20:23,369: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000040 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[0]], []]]}
+2018-10-11 10:20:23,369: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,369: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,369: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000041: |##------:-|--------:-|--------:-|
+2018-10-11 10:20:23,370: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000041 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[1]], []]]}
+2018-10-11 10:20:23,370: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,370: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,370: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000042: |###-----:-|--------:-|--------:-|
+2018-10-11 10:20:23,371: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000042 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[2]], []]]}
+2018-10-11 10:20:23,371: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,371: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,371: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000043: |####----:-|--------:-|--------:-|
+2018-10-11 10:20:23,372: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000043 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[3]], []]]}
+2018-10-11 10:20:23,372: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,372: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,372: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000044: |#####---:-|--------:-|--------:-|
+2018-10-11 10:20:23,373: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000044 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[4]], []]]}
+2018-10-11 10:20:23,373: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,373: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,373: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000045: |######--:-|--------:-|--------:-|
+2018-10-11 10:20:23,373: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000045 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[5]], []]]}
+2018-10-11 10:20:23,374: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,374: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,374: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000046: |#######-:-|--------:-|--------:-|
+2018-10-11 10:20:23,374: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000046 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[6]], []]]}
+2018-10-11 10:20:23,374: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,375: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,375: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000047: |########:-|--------:-|--------:-|
+2018-10-11 10:20:23,375: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000047 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[7]], []]]}
+2018-10-11 10:20:23,375: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,375: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,376: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000048: |########:-|#-------:-|--------:-|
+2018-10-11 10:20:23,376: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000048 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[0]], []]]}
+2018-10-11 10:20:23,376: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,376: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,377: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000049: |########:-|##------:-|--------:-|
+2018-10-11 10:20:23,377: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000049 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[1]], []]]}
+2018-10-11 10:20:23,377: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,377: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,378: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000050: |########:-|###-----:-|--------:-|
+2018-10-11 10:20:23,378: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000050 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[2]], []]]}
+2018-10-11 10:20:23,378: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,378: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,378: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000051: |########:-|####----:-|--------:-|
+2018-10-11 10:20:23,379: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000051 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[3]], []]]}
+2018-10-11 10:20:23,379: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,379: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,379: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000052: |########:-|#####---:-|--------:-|
+2018-10-11 10:20:23,380: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000052 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[4]], []]]}
+2018-10-11 10:20:23,380: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,380: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,380: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000053: |########:-|######--:-|--------:-|
+2018-10-11 10:20:23,381: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000053 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[5]], []]]}
+2018-10-11 10:20:23,381: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,381: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,381: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000054: |########:-|#######-:-|--------:-|
+2018-10-11 10:20:23,382: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000054 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[6]], []]]}
+2018-10-11 10:20:23,382: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,382: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,382: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000055: |########:-|########:-|--------:-|
+2018-10-11 10:20:23,383: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000055 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[7]], []]]}
+2018-10-11 10:20:23,383: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,383: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,383: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000056: |########:-|########:-|#-------:-|
+2018-10-11 10:20:23,384: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000056 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[0]], []]]}
+2018-10-11 10:20:23,384: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,384: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,384: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000057: |########:-|########:-|##------:-|
+2018-10-11 10:20:23,385: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000057 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[1]], []]]}
+2018-10-11 10:20:23,385: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,385: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,385: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000058: |########:-|########:-|###-----:-|
+2018-10-11 10:20:23,386: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000058 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[2]], []]]}
+2018-10-11 10:20:23,386: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,386: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,386: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000059: |########:-|########:-|####----:-|
+2018-10-11 10:20:23,387: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000059 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[3]], []]]}
+2018-10-11 10:20:23,387: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,387: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,387: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000060: |########:-|########:-|#####---:-|
+2018-10-11 10:20:23,388: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000060 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[4]], []]]}
+2018-10-11 10:20:23,388: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,388: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,388: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000061: |########:-|########:-|######--:-|
+2018-10-11 10:20:23,389: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000061 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[5]], []]]}
+2018-10-11 10:20:23,389: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,389: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,389: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000062: |########:-|########:-|#######-:-|
+2018-10-11 10:20:23,389: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000062 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[6]], []]]}
+2018-10-11 10:20:23,390: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,390: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:20:23,390: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000063: |########:-|########:-|########:-|
+2018-10-11 10:20:23,390: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000063 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[7]], []]]}
+2018-10-11 10:20:23,391: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:20:23,391: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:25:43,568: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000047: |########:-|########:-|########:-|
+2018-10-11 10:25:43,569: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000047: |#######-:-|########:-|########:-|
+2018-10-11 10:25:43,570: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000047: |#######-:-|########:-|########:-|
+2018-10-11 10:25:43,570: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000064: |########:-|########:-|########:-|
+2018-10-11 10:25:43,571: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000064 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[7]], []]]}
+2018-10-11 10:25:43,571: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:25:43,571: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:26:16,535: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000043: |########:-|########:-|########:-|
+2018-10-11 10:26:16,537: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000043: |###-####:-|########:-|########:-|
+2018-10-11 10:26:16,537: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000043: |###-####:-|########:-|########:-|
+2018-10-11 10:26:16,537: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000065: |########:-|########:-|########:-|
+2018-10-11 10:26:16,538: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000065 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[3]], []]]}
+2018-10-11 10:26:16,538: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:26:16,538: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:27:00,559: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000057: |########:-|########:-|########:-|
+2018-10-11 10:27:00,563: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000057: |########:-|########:-|#-######:-|
+2018-10-11 10:27:00,563: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000057: |########:-|########:-|#-######:-|
+2018-10-11 10:27:00,563: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000066: |########:-|########:-|########:-|
+2018-10-11 10:27:00,564: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000066 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[1]], []]]}
+2018-10-11 10:27:00,564: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:27:00,564: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:27:07,598: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000061: |########:-|########:-|########:-|
+2018-10-11 10:27:07,603: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000061: |########:-|########:-|#####-##:-|
+2018-10-11 10:27:07,603: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000061: |########:-|########:-|#####-##:-|
+2018-10-11 10:27:07,603: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000067: |########:-|########:-|########:-|
+2018-10-11 10:27:07,604: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000067 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[5]], []]]}
+2018-10-11 10:27:07,604: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:27:07,604: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:27:23,582: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000056: |########:-|########:-|########:-|
+2018-10-11 10:27:23,587: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000056: |########:-|########:-|-#######:-|
+2018-10-11 10:27:23,587: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000056: |########:-|########:-|-#######:-|
+2018-10-11 10:27:23,587: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000068: |########:-|########:-|########:-|
+2018-10-11 10:27:23,592: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000068 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[0]], []]]}
+2018-10-11 10:27:23,593: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:27:23,593: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:27:40,669: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000060: |########:-|########:-|########:-|
+2018-10-11 10:27:40,674: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000060: |########:-|########:-|####-###:-|
+2018-10-11 10:27:40,674: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000060: |########:-|########:-|####-###:-|
+2018-10-11 10:27:40,674: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000069: |########:-|########:-|########:-|
+2018-10-11 10:27:40,675: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000069 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[4]], []]]}
+2018-10-11 10:27:40,675: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:27:40,675: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:28:40,569: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000050: |########:-|########:-|########:-|
+2018-10-11 10:28:40,574: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000050: |########:-|##-#####:-|########:-|
+2018-10-11 10:28:40,574: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000050: |########:-|##-#####:-|########:-|
+2018-10-11 10:28:40,574: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000070: |########:-|########:-|########:-|
+2018-10-11 10:28:40,575: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000070 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[2]], []]]}
+2018-10-11 10:28:40,575: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:28:40,575: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:30:12,532: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000046: |########:-|########:-|########:-|
+2018-10-11 10:30:12,537: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000046: |######-#:-|########:-|########:-|
+2018-10-11 10:30:12,537: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000046: |######-#:-|########:-|########:-|
+2018-10-11 10:30:12,537: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000071: |########:-|########:-|########:-|
+2018-10-11 10:30:12,538: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000071 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[6]], []]]}
+2018-10-11 10:30:12,538: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:30:12,538: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:30:13,538: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000048: |########:-|########:-|########:-|
+2018-10-11 10:30:13,538: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000048: |########:-|-#######:-|########:-|
+2018-10-11 10:30:13,538: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000048: |########:-|-#######:-|########:-|
+2018-10-11 10:30:13,538: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000072: |########:-|########:-|########:-|
+2018-10-11 10:30:13,539: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000072 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[0]], []]]}
+2018-10-11 10:30:13,539: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:30:13,539: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:30:50,527: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000052: |########:-|########:-|########:-|
+2018-10-11 10:30:50,528: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000052: |########:-|####-###:-|########:-|
+2018-10-11 10:30:50,528: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000052: |########:-|####-###:-|########:-|
+2018-10-11 10:30:50,528: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000073: |########:-|########:-|########:-|
+2018-10-11 10:30:50,529: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000073 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[4]], []]]}
+2018-10-11 10:30:50,529: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:30:50,529: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:30:54,452: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000040: |########:-|########:-|########:-|
+2018-10-11 10:30:54,452: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000040: |-#######:-|########:-|########:-|
+2018-10-11 10:30:54,453: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000040: |-#######:-|########:-|########:-|
+2018-10-11 10:30:54,453: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000074: |########:-|########:-|########:-|
+2018-10-11 10:30:54,453: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000074 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[0]], []]]}
+2018-10-11 10:30:54,453: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:30:54,454: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:31:39,481: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000044: |########:-|########:-|########:-|
+2018-10-11 10:31:39,482: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000044: |####-###:-|########:-|########:-|
+2018-10-11 10:31:39,482: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000044: |####-###:-|########:-|########:-|
+2018-10-11 10:31:39,482: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000075: |########:-|########:-|########:-|
+2018-10-11 10:31:39,483: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000075 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[4]], []]]}
+2018-10-11 10:31:39,483: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:31:39,483: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:31:53,556: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000049: |########:-|########:-|########:-|
+2018-10-11 10:31:53,557: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000049: |########:-|#-######:-|########:-|
+2018-10-11 10:31:53,557: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000049: |########:-|#-######:-|########:-|
+2018-10-11 10:31:53,557: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000076: |########:-|########:-|########:-|
+2018-10-11 10:31:53,558: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000076 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[1]], []]]}
+2018-10-11 10:31:53,558: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:31:53,558: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:32:18,485: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000045: |########:-|########:-|########:-|
+2018-10-11 10:32:18,486: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000045: |#####-##:-|########:-|########:-|
+2018-10-11 10:32:18,486: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000045: |#####-##:-|########:-|########:-|
+2018-10-11 10:32:18,486: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000077: |########:-|########:-|########:-|
+2018-10-11 10:32:18,487: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000077 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[5]], []]]}
+2018-10-11 10:32:18,487: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:32:18,487: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:32:27,535: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000054: |########:-|########:-|########:-|
+2018-10-11 10:32:27,540: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000054: |########:-|######-#:-|########:-|
+2018-10-11 10:32:27,540: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000054: |########:-|######-#:-|########:-|
+2018-10-11 10:32:27,540: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000078: |########:-|########:-|########:-|
+2018-10-11 10:32:27,541: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000078 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[6]], []]]}
+2018-10-11 10:32:27,541: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:32:27,541: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:32:34,776: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000067: |########:-|########:-|########:-|
+2018-10-11 10:32:34,776: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000067: |########:-|########:-|#####-##:-|
+2018-10-11 10:32:34,776: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000067: |########:-|########:-|#####-##:-|
+2018-10-11 10:32:34,776: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000079: |########:-|########:-|########:-|
+2018-10-11 10:32:34,777: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000079 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[5]], []]]}
+2018-10-11 10:32:34,777: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:32:34,777: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:32:45,530: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000051: |########:-|########:-|########:-|
+2018-10-11 10:32:45,535: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000051: |########:-|###-####:-|########:-|
+2018-10-11 10:32:45,535: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000051: |########:-|###-####:-|########:-|
+2018-10-11 10:32:45,535: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000000: |########:-|########:-|########:-|
+2018-10-11 10:32:45,536: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000000 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[3]], []]]}
+2018-10-11 10:32:45,536: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:32:45,536: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:33:09,455: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000042: |########:-|########:-|########:-|
+2018-10-11 10:33:09,460: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000042: |##-#####:-|########:-|########:-|
+2018-10-11 10:33:09,460: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000042: |##-#####:-|########:-|########:-|
+2018-10-11 10:33:09,460: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000001: |########:-|########:-|########:-|
+2018-10-11 10:33:09,461: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000001 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[2]], []]]}
+2018-10-11 10:33:09,461: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:33:09,461: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:33:45,638: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000059: |########:-|########:-|########:-|
+2018-10-11 10:33:45,639: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000059: |########:-|########:-|###-####:-|
+2018-10-11 10:33:45,639: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000059: |########:-|########:-|###-####:-|
+2018-10-11 10:33:45,639: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000002: |########:-|########:-|########:-|
+2018-10-11 10:33:45,640: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000002 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[3]], []]]}
+2018-10-11 10:33:45,640: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:33:45,640: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:33:47,448: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000041: |########:-|########:-|########:-|
+2018-10-11 10:33:47,448: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000041: |#-######:-|########:-|########:-|
+2018-10-11 10:33:47,448: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000041: |#-######:-|########:-|########:-|
+2018-10-11 10:33:47,449: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000003: |########:-|########:-|########:-|
+2018-10-11 10:33:47,449: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000003 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_0', [[1]], []]]}
+2018-10-11 10:33:47,449: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:33:47,449: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:34:13,782: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000063: |########:-|########:-|########:-|
+2018-10-11 10:34:13,783: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000063: |########:-|########:-|#######-:-|
+2018-10-11 10:34:13,783: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000063: |########:-|########:-|#######-:-|
+2018-10-11 10:34:13,783: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000004: |########:-|########:-|########:-|
+2018-10-11 10:34:13,784: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000004 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[7]], []]]}
+2018-10-11 10:34:13,784: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:34:13,784: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:34:19,713: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000066: |########:-|########:-|########:-|
+2018-10-11 10:34:19,713: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000066: |########:-|########:-|#-######:-|
+2018-10-11 10:34:19,713: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000066: |########:-|########:-|#-######:-|
+2018-10-11 10:34:19,713: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000005: |########:-|########:-|########:-|
+2018-10-11 10:34:19,714: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000005 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[1]], []]]}
+2018-10-11 10:34:19,714: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:34:19,714: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:34:32,578: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000055: |########:-|########:-|########:-|
+2018-10-11 10:34:32,579: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000055: |########:-|#######-:-|########:-|
+2018-10-11 10:34:32,579: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000055: |########:-|#######-:-|########:-|
+2018-10-11 10:34:32,579: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000006: |########:-|########:-|########:-|
+2018-10-11 10:34:32,580: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000006 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[7]], []]]}
+2018-10-11 10:34:32,580: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:34:32,580: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:34:37,605: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000053: |########:-|########:-|########:-|
+2018-10-11 10:34:37,605: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000053: |########:-|#####-##:-|########:-|
+2018-10-11 10:34:37,605: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000053: |########:-|#####-##:-|########:-|
+2018-10-11 10:34:37,605: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000007: |########:-|########:-|########:-|
+2018-10-11 10:34:37,606: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000007 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_1', [[5]], []]]}
+2018-10-11 10:34:37,606: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:34:37,606: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:35:04,644: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000058: |########:-|########:-|########:-|
+2018-10-11 10:35:04,649: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000058: |########:-|########:-|##-#####:-|
+2018-10-11 10:35:04,649: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000058: |########:-|########:-|##-#####:-|
+2018-10-11 10:35:04,649: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000008: |########:-|########:-|########:-|
+2018-10-11 10:35:04,650: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000008 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[2]], []]]}
+2018-10-11 10:35:04,650: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:35:04,650: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:35:17,712: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000062: |########:-|########:-|########:-|
+2018-10-11 10:35:17,712: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000062: |########:-|########:-|######-#:-|
+2018-10-11 10:35:17,712: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : before schedule   unit.000062: |########:-|########:-|######-#:-|
+2018-10-11 10:35:17,712: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : after  allocate   unit.000009: |########:-|########:-|########:-|
+2018-10-11 10:35:17,713: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : unit.000009 [1/0] : {'cores_per_node': 8,
+ 'gpus_per_node': 1,
+ 'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                       'version_detail': 'There is no spoon'}}},
+ 'nodes': [['localhost', 'localhost_2', [[6]], []]]}
+2018-10-11 10:35:17,713: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 10:35:17,713: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2018-10-11 10:35:20,893: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : got termination command
+2018-10-11 10:35:21,049: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : stop agent_0.scheduling.0.child (112799 : 112799 : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb) [radical.pilot.utils.component.Continuous._cancel_monitor_cb]
+2018-10-11 10:35:21,050: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  112799 -> 112799 [agent_0.scheduling.0.child]
+2018-10-11 10:35:21,050: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : send message: [agent_0.scheduling.0.child] STOP
+2018-10-11 10:35:21,050: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_common()
+2018-10-11 10:35:21,050: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.scheduling.0.child unregister publisher log_pubsub
+2018-10-11 10:35:21,051: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher log_pubsub
+2018-10-11 10:35:21,051: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.scheduling.0.child unregister publisher state_pubsub
+2018-10-11 10:35:21,054: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher state_pubsub
+2018-10-11 10:35:21,054: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.scheduling.0.child unregister publisher control_pubsub
+2018-10-11 10:35:21,059: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher control_pubsub
+2018-10-11 10:35:21,059: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : agent_0.scheduling.0.child close prof
+2018-10-11 10:35:21,060: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb - do not join
+2018-10-11 10:35:21,060: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : child calls stop()
+2018-10-11 10:35:21,060: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb - do not join
+2018-10-11 10:35:21,061: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb - do not join
+2018-10-11 10:35:21,061: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb - do not join
+2018-10-11 10:35:21,061: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb - do not join
+2018-10-11 10:35:21,061: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 10:35:21,061: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber._cancel_monitor_cb.thread] terminating
+2018-10-11 10:35:21,087: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : recv message: 
+2018-10-11 10:35:21,087: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : message received: 
+2018-10-11 10:35:21,087: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: WARNING : received empty string, parent closed ep
+2018-10-11 10:35:21,087: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : watcher closes
+2018-10-11 10:35:21,087: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : put message: [agent_0.scheduling.0.child.watch.thread] work finished
+2018-10-11 10:35:21,087: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 10:35:21,087: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : ru_finalize_common (NOOP)
+2018-10-11 10:35:21,088: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : put message: [agent_0.scheduling.0.child.watch.thread] terminating
+2018-10-11 10:35:21,226: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 10:35:21,228: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 10:35:21,231: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber.unschedule_cb.thread] terminating
+2018-10-11 10:35:21,232: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber.schedule_cb.thread] terminating
+2018-10-11 10:35:21,862: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_finalize_common()
+2018-10-11 10:35:21,862: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : WARNING : publisher log_pubsub is not registered
+2018-10-11 10:35:21,862: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : WARNING : publisher state_pubsub is not registered
+2018-10-11 10:35:21,862: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : WARNING : publisher control_pubsub is not registered
+2018-10-11 10:35:21,862: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : agent_0.scheduling.0.child close prof
+2018-10-11 10:35:21,862: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : send message: [agent_0.scheduling.0.child] terminating
+2018-10-11 10:35:21,862: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : WARNING : send failed ([Errno 9] Bad file descriptor) - terminate
+2018-10-11 10:35:21,863: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : parent stops child
+2018-10-11 10:35:21,863: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2018-10-11 10:35:21,863: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : parent stops child
+2018-10-11 10:35:21,863: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2018-10-11 10:35:21,863: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : parent stops child
+2018-10-11 10:35:21,863: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

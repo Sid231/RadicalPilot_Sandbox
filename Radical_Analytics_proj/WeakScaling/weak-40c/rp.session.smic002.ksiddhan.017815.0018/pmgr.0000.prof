@@ -1,0 +1,15 @@
+#time,event,comp,thread,uid,state,msg
+1539274097.4794,sync_abs,pmgr.0000,MainThread,,,smic002:204.90.41.2:1539274097.4:1539274097.4:ntp
+1539274097.7423,component_init,pmgr.0000,MainThread,,,
+1539274097.8178,setup_done,pmgr.0000,MainThread,pmgr.0000,,
+1539274098.6477,advance,pmgr.0000,MainThread,pilot.0000,NEW,
+1539274098.6827,advance,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1539274098.6829,publish,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1539274098.6830,put,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,pmgr.launching.queue.input.0000
+1539274098.6844,advance,pmgr.0000,pmgr.0000.subscriber._state_sub_cb,pilot.0000,PMGR_LAUNCHING,
+1539274104.7805,advance,pmgr.0000,pmgr.0000.subscriber._state_sub_cb,pilot.0000,PMGR_ACTIVE_PENDING,
+1539274117.9576,advance,pmgr.0000,pmgr.0000.idler._state_pull_cb,pilot.0000,PMGR_ACTIVE,
+1539274117.9622,publish,pmgr.0000,pmgr.0000.idler._state_pull_cb,pilot.0000,PMGR_ACTIVE,
+1539275039.3874,flush,pmgr.0000,MainThread,,,
+1539275042.1949,component_final,pmgr.0000,MainThread,,,
+1539275042.1949,END,pmgr.0000,MainThread,,,

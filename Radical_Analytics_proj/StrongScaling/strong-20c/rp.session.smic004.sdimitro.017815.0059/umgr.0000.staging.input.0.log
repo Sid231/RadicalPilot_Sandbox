@@ -1,0 +1,104 @@
+2018-10-11 09:29:01,502: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    : python.interpreter   version: 2.7.15 |Anaconda, Inc.| (default, May 1 2018, 23:32:55) [GCC 7.2.0]
+2018-10-11 09:29:01,503: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    :                      pid/tid: 64388/MainThread
+2018-10-11 09:29:01,503: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 09:29:01,503: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : start process
+2018-10-11 09:29:01,587: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    : recv message: alive
+2018-10-11 09:29:01,588: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    : initialize umgr.0000.staging.input.0
+2018-10-11 09:29:01,590: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    : cfg: {'agents': {},
+ u'bridges': {u'control_pubsub': {'addr_in': 'tcp://204.90.41.4:36592',
+                                  'addr_out': 'tcp://204.90.41.4:41728',
+                                  u'bulk_size': 0,
+                                  u'log_level': u'error',
+                                  u'stall_hwm': 1},
+              u'log_pubsub': {'addr_in': 'tcp://204.90.41.4:33970',
+                              'addr_out': 'tcp://204.90.41.4:45739',
+                              u'bulk_size': 0,
+                              u'log_level': u'error',
+                              u'stall_hwm': 1},
+              u'state_pubsub': {'addr_in': 'tcp://204.90.41.4:36397',
+                                'addr_out': 'tcp://204.90.41.4:35490',
+                                u'bulk_size': 0,
+                                u'log_level': u'error',
+                                u'stall_hwm': 1},
+              u'umgr_reschedule_pubsub': {'addr_in': 'tcp://204.90.41.4:42746',
+                                          'addr_out': 'tcp://204.90.41.4:34493',
+                                          u'bulk_size': 0,
+                                          u'log_level': u'error',
+                                          u'stall_hwm': 1},
+              u'umgr_scheduling_queue': {'addr_in': 'tcp://204.90.41.4:34300',
+                                         'addr_out': 'tcp://204.90.41.4:46115',
+                                         u'bulk_size': 0,
+                                         u'log_level': u'error',
+                                         u'stall_hwm': 1},
+              u'umgr_staging_input_queue': {'addr_in': 'tcp://204.90.41.4:43493',
+                                            'addr_out': 'tcp://204.90.41.4:46658',
+                                            u'bulk_size': 0,
+                                            u'log_level': u'error',
+                                            u'stall_hwm': 1},
+              u'umgr_staging_output_queue': {'addr_in': 'tcp://204.90.41.4:37115',
+                                             'addr_out': 'tcp://204.90.41.4:36987',
+                                             u'bulk_size': 0,
+                                             u'log_level': u'error',
+                                             u'stall_hwm': 1},
+              u'umgr_unschedule_pubsub': {'addr_in': 'tcp://204.90.41.4:41112',
+                                          'addr_out': 'tcp://204.90.41.4:38655',
+                                          u'bulk_size': 0,
+                                          u'log_level': u'error',
+                                          u'stall_hwm': 1}},
+ u'bulk_collection_size': 100,
+ u'bulk_collection_time': 1.0,
+ 'cname': u'UMGRStagingInputComponent',
+ u'components': {},
+ u'count': 1,
+ u'db_poll_sleeptime': 1.0,
+ 'number': 0,
+ 'owner': 'umgr.0000',
+ u'scheduler': u'round_robin',
+ 'uid': 'umgr.0000'}
+2018-10-11 09:29:01,590: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 09:29:01,590: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : START: umgr.0000.staging.input.0 register publisher log_pubsub
+2018-10-11 09:29:01,590: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : using addr tcp://204.90.41.4:33970 for pubsub log_pubsub
+2018-10-11 09:29:01,593: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0003
+2018-10-11 09:29:01,593: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 09:29:01,593: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : START: umgr.0000.staging.input.0 register publisher state_pubsub
+2018-10-11 09:29:01,593: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : using addr tcp://204.90.41.4:36397 for pubsub state_pubsub
+2018-10-11 09:29:01,595: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0003
+2018-10-11 09:29:01,595: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : alive check in term
+2018-10-11 09:29:01,595: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : START: umgr.0000.staging.input.0 register publisher control_pubsub
+2018-10-11 09:29:01,595: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : using addr tcp://204.90.41.4:36592 for pubsub control_pubsub
+2018-10-11 09:29:01,597: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0003
+2018-10-11 09:29:01,597: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : parent name: umgr.0000.staging.input.0.watch
+2018-10-11 09:29:01,597: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : start thread
+2018-10-11 09:29:01,597: umgr.0000.staging.input.0: MainProcess                     : umgr.0000.staging.input.0.watch: DEBUG   : child name: umgr.0000.staging.input.0.watch.thread
+2018-10-11 09:29:01,597: umgr.0000.staging.input.0: MainProcess                     : umgr.0000.staging.input.0.watch: INFO    : child (me) initializing
+2018-10-11 09:29:01,597: umgr.0000.staging.input.0: MainProcess                     : umgr.0000.staging.input.0.watch: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 09:29:01,597: umgr.0000.staging.input.0: MainProcess                     : umgr.0000.staging.input.0.watch: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 09:29:01,597: umgr.0000.staging.input.0: MainProcess                     : umgr.0000.staging.input.0.watch: INFO    : send alive
+2018-10-11 09:29:01,597: umgr.0000.staging.input.0: MainProcess                     : umgr.0000.staging.input.0.watch: INFO    : put message: [umgr.0000.staging.input.0.watch.thread] alive
+2018-10-11 09:29:01,598: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    : get msg: alive
+2018-10-11 09:29:01,598: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 09:29:01,599: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 09:29:01,599: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : child thread umgr.0000.staging.input.0.watch started
+2018-10-11 09:29:01,599: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    : child is alive
+2018-10-11 09:29:01,599: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : process class started child
+2018-10-11 09:44:52,870: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    : stop umgr.0000.staging.input.0 (64388 : 64773 : MainThread) [radical.pilot.unit_manager.UnitManager.finalize_parent]
+2018-10-11 09:44:52,875: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    : parent stops child  64388 -> 64773 [umgr.0000.staging.input.0]
+2018-10-11 09:44:52,875: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    : send message: [umgr.0000.staging.input.0] STOP
+2018-10-11 09:44:52,875: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : ru_finalize_common()
+2018-10-11 09:44:52,875: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : TERM : umgr.0000.staging.input.0 unregister publisher log_pubsub
+2018-10-11 09:44:52,876: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : unregistered publisher log_pubsub
+2018-10-11 09:44:52,876: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : TERM : umgr.0000.staging.input.0 unregister publisher state_pubsub
+2018-10-11 09:44:52,876: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : unregistered publisher state_pubsub
+2018-10-11 09:44:52,876: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : TERM : umgr.0000.staging.input.0 unregister publisher control_pubsub
+2018-10-11 09:44:52,877: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : unregistered publisher control_pubsub
+2018-10-11 09:44:52,877: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : umgr.0000.staging.input.0 close prof
+2018-10-11 09:44:52,877: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    : parent stops child
+2018-10-11 09:44:52,877: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2018-10-11 09:44:52,877: umgr.0000.staging.input.0: MainProcess                     : MainThread     : DEBUG   : ru_finalize_common (NOOP)
+2018-10-11 09:44:52,884: umgr.0000.staging.input.0: MainProcess                     : umgr.0000.staging.input.0.watch: INFO    : watcher closes
+2018-10-11 09:44:52,884: umgr.0000.staging.input.0: MainProcess                     : umgr.0000.staging.input.0.watch: INFO    : put message: [umgr.0000.staging.input.0.watch.thread] work finished
+2018-10-11 09:44:52,884: umgr.0000.staging.input.0: MainProcess                     : umgr.0000.staging.input.0.watch: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 09:44:52,884: umgr.0000.staging.input.0: MainProcess                     : umgr.0000.staging.input.0.watch: DEBUG   : ru_finalize_common (NOOP)
+2018-10-11 09:44:52,884: umgr.0000.staging.input.0: MainProcess                     : umgr.0000.staging.input.0.watch: INFO    : put message: [umgr.0000.staging.input.0.watch.thread] terminating
+2018-10-11 09:44:58,457: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    : stop umgr.0000.staging.input.0 (64388 : 64773 : MainThread) [radical.pilot.utils.component.UnitManager.ru_finalize_common]
+2018-10-11 09:45:03,499: umgr.0000.staging.input.0: MainProcess                     : MainThread     : INFO    : stop umgr.0000.staging.input.0 (64388 : 64773 : MainThread) [radical.pilot.session.Session.close]

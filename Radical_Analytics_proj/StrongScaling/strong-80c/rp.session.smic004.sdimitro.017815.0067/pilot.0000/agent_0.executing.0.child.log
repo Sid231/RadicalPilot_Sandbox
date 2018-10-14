@@ -1,0 +1,875 @@
+2018-10-11 11:49:09,678: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : python.interpreter   version: 2.7.15 |Anaconda, Inc.| (default, May 1 2018, 23:32:55) [GCC 7.2.0]
+2018-10-11 11:49:09,679: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    :                      pid/tid: 56437/MainThread
+2018-10-11 11:49:09,679: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : initialize agent_0.executing.0.child
+2018-10-11 11:49:09,686: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : cfg: {'agent_launch_method': 'FORK',
+ 'agent_name': 'agent_0',
+ 'agents': {},
+ 'bridges': {'agent_executing_queue': {'addr_in': 'tcp://204.90.41.4:33499',
+                                       'addr_out': 'tcp://204.90.41.4:36163',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_schedule_pubsub': {'addr_in': 'tcp://204.90.41.4:36967',
+                                       'addr_out': 'tcp://204.90.41.4:39717',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_scheduling_queue': {'addr_in': 'tcp://204.90.41.4:37331',
+                                        'addr_out': 'tcp://204.90.41.4:35216',
+                                        'bulk_size': 0,
+                                        'log_level': 'error',
+                                        'stall_hwm': 1},
+             'agent_staging_input_queue': {'addr_in': 'tcp://204.90.41.4:35009',
+                                           'addr_out': 'tcp://204.90.41.4:36037',
+                                           'bulk_size': 0,
+                                           'log_level': 'error',
+                                           'stall_hwm': 1},
+             'agent_staging_output_queue': {'addr_in': 'tcp://204.90.41.4:42833',
+                                            'addr_out': 'tcp://204.90.41.4:39125',
+                                            'bulk_size': 0,
+                                            'log_level': 'error',
+                                            'stall_hwm': 1},
+             'agent_unschedule_pubsub': {'addr_in': 'tcp://204.90.41.4:42741',
+                                         'addr_out': 'tcp://204.90.41.4:39157',
+                                         'bulk_size': 0,
+                                         'log_level': 'error',
+                                         'stall_hwm': 1},
+             'control_pubsub': {'addr_in': 'tcp://204.90.41.4:33023',
+                                'addr_out': 'tcp://204.90.41.4:39414',
+                                'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+             'log_pubsub': {'addr_in': 'tcp://204.90.41.4:41818',
+                            'addr_out': 'tcp://204.90.41.4:42333',
+                            'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+             'state_pubsub': {'addr_in': 'tcp://204.90.41.4:39794',
+                              'addr_out': 'tcp://204.90.41.4:39241',
+                              'bulk_size': 0,
+                              'log_level': 'error',
+                              'stall_hwm': 1}},
+ 'bulk_collection_size': 100,
+ 'bulk_collection_time': 1.0,
+ 'cname': 'AgentExecutingComponent',
+ 'components': {},
+ 'cores': 80,
+ 'cores_per_node': 8,
+ 'count': 1,
+ 'cu_post_exec': None,
+ 'cu_pre_exec': None,
+ 'cu_tmp': None,
+ 'db_poll_sleeptime': 1.0,
+ 'dburl': 'mongodb://aymenfja:123456789@ds127490.mlab.com:27490/radicallab',
+ 'debug': 10,
+ 'export_to_cu': None,
+ 'gpus': 0,
+ 'gpus_per_node': 1,
+ 'logdir': '.',
+ 'lrms': 'FORK',
+ 'lrms_info': {'agent_nodes': {},
+               'cores_per_node': 8,
+               'gpus_per_node': 1,
+               'lm_info': {'version_info': {'FORK': {'version': '0.42',
+                                                     'version_detail': 'There is no spoon'}}},
+               'name': 'Fork',
+               'node_list': [['localhost', 'localhost_0'],
+                             ['localhost', 'localhost_1'],
+                             ['localhost', 'localhost_2'],
+                             ['localhost', 'localhost_3'],
+                             ['localhost', 'localhost_4'],
+                             ['localhost', 'localhost_5'],
+                             ['localhost', 'localhost_6'],
+                             ['localhost', 'localhost_7'],
+                             ['localhost', 'localhost_8'],
+                             ['localhost', 'localhost_9']]},
+ 'max_io_loglength': 1024,
+ 'mode': 'shared',
+ 'mpi_launch_method': 'MPIEXEC',
+ 'number': 0,
+ 'owner': 'agent_0',
+ 'pilot_id': 'pilot.0000',
+ 'pilot_sandbox': '/home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/',
+ 'resource_cfg': {'agent_launch_method': 'FORK',
+                  'agent_scheduler': 'CONTINUOUS',
+                  'agent_spawner': 'POPEN',
+                  'cores_per_node': 8,
+                  'default_remote_workdir': '$HOME',
+                  'description': 'Your local machine.',
+                  'filesystem_endpoint': 'file://localhost/',
+                  'gpus_per_node': 1,
+                  'job_manager_endpoint': 'fork://localhost/',
+                  'label': 'local.localhost_anaconda',
+                  'local': {'filesystem_endpoint': 'file://localhost/',
+                            'job_manager_endpoint': 'fork://localhost/'},
+                  'lrms': 'FORK',
+                  'mpi_launch_method': 'MPIEXEC',
+                  'notes': 'To use the ssh schema, make sure that ssh access to localhost is enabled.',
+                  'python_dist': 'anaconda',
+                  'rp_version': 'local',
+                  'schemas': ['local', 'ssh'],
+                  'ssh': {'filesystem_endpoint': 'sftp://localhost/',
+                          'job_manager_endpoint': 'ssh://localhost/'},
+                  'task_launch_method': 'FORK',
+                  'virtenv_mode': 'create'},
+ 'resource_sandbox': '/home/sdimitro/radical.pilot.sandbox',
+ 'runtime': 15,
+ 'scheduler': 'CONTINUOUS',
+ 'session_id': 'rp.session.smic004.sdimitro.017815.0067',
+ 'session_sandbox': '/home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067',
+ 'spawner': 'POPEN',
+ 'staging_area': 'staging_area',
+ 'staging_schema': 'staging',
+ 'target': 'local',
+ 'task_launch_method': 'FORK',
+ 'uid': 'agent_0',
+ 'workdir': '/home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000'}
+2018-10-11 11:49:09,686: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : start components: {}
+2018-10-11 11:49:09,686: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:49:09,686: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : START: agent_0.executing.0.child register publisher log_pubsub
+2018-10-11 11:49:09,687: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : using addr tcp://204.90.41.4:41818 for pubsub log_pubsub
+2018-10-11 11:49:09,699: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0004
+2018-10-11 11:49:09,699: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:49:09,699: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : START: agent_0.executing.0.child register publisher state_pubsub
+2018-10-11 11:49:09,699: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : using addr tcp://204.90.41.4:39794 for pubsub state_pubsub
+2018-10-11 11:49:09,707: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0004
+2018-10-11 11:49:09,707: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:49:09,708: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : START: agent_0.executing.0.child register publisher control_pubsub
+2018-10-11 11:49:09,708: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : using addr tcp://204.90.41.4:33023 for pubsub control_pubsub
+2018-10-11 11:49:09,714: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0004
+2018-10-11 11:49:09,719: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:49:09,719: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : START: agent_0.executing.0.child register subscriber agent_0.executing.0.child.subscriber._cancel_monitor_cb
+2018-10-11 11:49:09,719: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : using addr tcp://204.90.41.4:39414 for pubsub control_pubsub
+2018-10-11 11:49:09,726: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : parent name: agent_0.executing.0.child.subscriber._cancel_monitor_cb
+2018-10-11 11:49:09,726: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : start thread
+2018-10-11 11:49:09,732: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : child name: agent_0.executing.0.child.subscriber._cancel_monitor_cb.thread
+2018-10-11 11:49:09,736: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : child (me) initializing
+2018-10-11 11:49:09,736: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 11:49:09,736: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 11:49:09,736: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : send alive
+2018-10-11 11:49:09,736: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [agent_0.executing.0.child.subscriber._cancel_monitor_cb.thread] alive
+2018-10-11 11:49:09,739: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : get msg: alive
+2018-10-11 11:49:09,740: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 11:49:09,740: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 11:49:09,740: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : child thread agent_0.executing.0.child.subscriber._cancel_monitor_cb started
+2018-10-11 11:49:09,740: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : agent_0.executing.0.child registered control_pubsub subscriber agent_0.executing.0.child.subscriber._cancel_monitor_cb
+2018-10-11 11:49:09,740: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:49:09,740: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : using addr tcp://204.90.41.4:36163 for input agent_executing_queue
+2018-10-11 11:49:09,746: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : registered input agent_0.executing.0.child.work.AGENT_EXECUTING_PENDING
+2018-10-11 11:49:09,746: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : START: agent_0.executing.0.child register input AGENT_EXECUTING_PENDING: agent_0.executing.0.child.work.AGENT_EXECUTING_PENDING
+2018-10-11 11:49:09,747: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : registered worker work [AGENT_EXECUTING_PENDING]
+2018-10-11 11:49:09,747: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:49:09,747: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : START: agent_0.executing.0.child register output AGENT_STAGING_OUTPUT_PENDING
+2018-10-11 11:49:09,747: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : using addr tcp://204.90.41.4:42833 for output agent_staging_output_queue
+2018-10-11 11:49:09,753: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : registered output    : AGENT_STAGING_OUTPUT_PENDING : agent_staging_output_queue : agent.staging.output.queue.input.0000
+2018-10-11 11:49:09,753: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:49:09,753: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : START: agent_0.executing.0.child register publisher agent_unschedule_pubsub
+2018-10-11 11:49:09,754: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : using addr tcp://204.90.41.4:42741 for pubsub agent_unschedule_pubsub
+2018-10-11 11:49:09,760: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : registered publisher : agent_unschedule_pubsub : agent.unschedule.pubsub.pub.0000
+2018-10-11 11:49:09,760: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : alive check in term
+2018-10-11 11:49:09,761: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : START: agent_0.executing.0.child register subscriber agent_0.executing.0.child.subscriber.command_cb
+2018-10-11 11:49:09,761: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : using addr tcp://204.90.41.4:39414 for pubsub control_pubsub
+2018-10-11 11:49:09,767: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : parent name: agent_0.executing.0.child.subscriber.command_cb
+2018-10-11 11:49:09,768: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : start thread
+2018-10-11 11:49:09,776: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: DEBUG   : child name: agent_0.executing.0.child.subscriber.command_cb.thread
+2018-10-11 11:49:09,781: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: INFO    : child (me) initializing
+2018-10-11 11:49:09,781: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 11:49:09,781: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 11:49:09,781: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: INFO    : send alive
+2018-10-11 11:49:09,781: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: INFO    : put message: [agent_0.executing.0.child.subscriber.command_cb.thread] alive
+2018-10-11 11:49:09,783: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : get msg: alive
+2018-10-11 11:49:09,783: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 11:49:09,783: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 11:49:09,783: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : child thread agent_0.executing.0.child.subscriber.command_cb started
+2018-10-11 11:49:09,783: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : agent_0.executing.0.child registered control_pubsub subscriber agent_0.executing.0.child.subscriber.command_cb
+2018-10-11 11:49:09,912: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : child (me) initializing
+2018-10-11 11:49:09,912: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : parent name: agent_0.executing.0.child.watch
+2018-10-11 11:49:09,912: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : start thread
+2018-10-11 11:49:09,923: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.watch: DEBUG   : child name: agent_0.executing.0.child.watch.thread
+2018-10-11 11:49:09,923: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.watch: INFO    : child (me) initializing
+2018-10-11 11:49:09,923: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.watch: DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 11:49:09,923: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.watch: DEBUG   : ru_initialize_child (NOOP)
+2018-10-11 11:49:09,923: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.watch: INFO    : send alive
+2018-10-11 11:49:09,923: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.watch: INFO    : put message: [agent_0.executing.0.child.watch.thread] alive
+2018-10-11 11:49:09,924: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : get msg: alive
+2018-10-11 11:49:09,924: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2018-10-11 11:49:09,924: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2018-10-11 11:49:09,924: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : child thread agent_0.executing.0.child.watch started
+2018-10-11 11:49:09,925: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : child (me) is alive
+2018-10-11 11:49:09,925: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : send alive
+2018-10-11 11:49:09,925: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : send message: [agent_0.executing.0.child] alive
+2018-10-11 11:49:10,317: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000040)
+2018-10-11 11:49:10,317: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,317: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,322: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000040/unit.000040.sh
+2018-10-11 11:49:10,323: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000040 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000040/unit.000040.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000040
+2018-10-11 11:49:10,344: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000041)
+2018-10-11 11:49:10,344: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,344: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,349: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000041/unit.000041.sh
+2018-10-11 11:49:10,350: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000041 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000041/unit.000041.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000041
+2018-10-11 11:49:10,369: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000042)
+2018-10-11 11:49:10,369: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,369: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,374: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000042/unit.000042.sh
+2018-10-11 11:49:10,375: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000042 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000042/unit.000042.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000042
+2018-10-11 11:49:10,394: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000043)
+2018-10-11 11:49:10,394: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,394: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,399: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000043/unit.000043.sh
+2018-10-11 11:49:10,400: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000043 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000043/unit.000043.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000043
+2018-10-11 11:49:10,417: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000044)
+2018-10-11 11:49:10,417: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,418: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,422: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000044/unit.000044.sh
+2018-10-11 11:49:10,423: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000044 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000044/unit.000044.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000044
+2018-10-11 11:49:10,442: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000045)
+2018-10-11 11:49:10,442: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,442: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,447: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000045/unit.000045.sh
+2018-10-11 11:49:10,448: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000045 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000045/unit.000045.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000045
+2018-10-11 11:49:10,465: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000046)
+2018-10-11 11:49:10,465: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,465: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,470: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000046/unit.000046.sh
+2018-10-11 11:49:10,471: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000046 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000046/unit.000046.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000046
+2018-10-11 11:49:10,488: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000047)
+2018-10-11 11:49:10,488: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,488: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,493: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000047/unit.000047.sh
+2018-10-11 11:49:10,497: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000047 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000047/unit.000047.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000047
+2018-10-11 11:49:10,516: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000048)
+2018-10-11 11:49:10,516: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,517: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,521: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000048/unit.000048.sh
+2018-10-11 11:49:10,522: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000048 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000048/unit.000048.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000048
+2018-10-11 11:49:10,542: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000049)
+2018-10-11 11:49:10,542: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,542: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,547: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000049/unit.000049.sh
+2018-10-11 11:49:10,548: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000049 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000049/unit.000049.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000049
+2018-10-11 11:49:10,575: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000050)
+2018-10-11 11:49:10,575: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,575: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,576: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000050/unit.000050.sh
+2018-10-11 11:49:10,580: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000050 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000050/unit.000050.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000050
+2018-10-11 11:49:10,606: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000051)
+2018-10-11 11:49:10,606: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,606: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,607: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000051/unit.000051.sh
+2018-10-11 11:49:10,608: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000051 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000051/unit.000051.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000051
+2018-10-11 11:49:10,624: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000052)
+2018-10-11 11:49:10,624: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,624: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,627: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000052/unit.000052.sh
+2018-10-11 11:49:10,628: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000052 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000052/unit.000052.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000052
+2018-10-11 11:49:10,647: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000053)
+2018-10-11 11:49:10,647: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,647: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,651: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000053/unit.000053.sh
+2018-10-11 11:49:10,652: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000053 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000053/unit.000053.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000053
+2018-10-11 11:49:10,675: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000054)
+2018-10-11 11:49:10,675: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,675: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,675: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000054/unit.000054.sh
+2018-10-11 11:49:10,677: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000054 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000054/unit.000054.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000054
+2018-10-11 11:49:10,695: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000055)
+2018-10-11 11:49:10,695: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,695: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,699: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000055/unit.000055.sh
+2018-10-11 11:49:10,701: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000055 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000055/unit.000055.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000055
+2018-10-11 11:49:10,730: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000056)
+2018-10-11 11:49:10,730: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,730: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,731: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000056/unit.000056.sh
+2018-10-11 11:49:10,733: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000056 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000056/unit.000056.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000056
+2018-10-11 11:49:10,752: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000057)
+2018-10-11 11:49:10,752: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,753: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,754: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000057/unit.000057.sh
+2018-10-11 11:49:10,760: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000057 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000057/unit.000057.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000057
+2018-10-11 11:49:10,779: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000058)
+2018-10-11 11:49:10,779: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,779: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,780: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000058/unit.000058.sh
+2018-10-11 11:49:10,786: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000058 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000058/unit.000058.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000058
+2018-10-11 11:49:10,805: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000059)
+2018-10-11 11:49:10,805: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,805: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,806: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000059/unit.000059.sh
+2018-10-11 11:49:10,812: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000059 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000059/unit.000059.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000059
+2018-10-11 11:49:10,835: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000060)
+2018-10-11 11:49:10,835: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,835: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,836: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000060/unit.000060.sh
+2018-10-11 11:49:10,838: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000060 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000060/unit.000060.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000060
+2018-10-11 11:49:10,874: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000061)
+2018-10-11 11:49:10,874: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,875: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,875: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000061/unit.000061.sh
+2018-10-11 11:49:10,886: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000061 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000061/unit.000061.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000061
+2018-10-11 11:49:10,916: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000062)
+2018-10-11 11:49:10,916: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,916: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,917: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000062/unit.000062.sh
+2018-10-11 11:49:10,923: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000062 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000062/unit.000062.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000062
+2018-10-11 11:49:10,949: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000063)
+2018-10-11 11:49:10,950: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,950: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,954: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000063/unit.000063.sh
+2018-10-11 11:49:10,960: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000063 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000063/unit.000063.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000063
+2018-10-11 11:49:10,985: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000064)
+2018-10-11 11:49:10,985: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:10,985: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:10,985: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000064/unit.000064.sh
+2018-10-11 11:49:10,991: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000064 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000064/unit.000064.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000064
+2018-10-11 11:49:11,018: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000065)
+2018-10-11 11:49:11,018: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,019: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,023: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000065/unit.000065.sh
+2018-10-11 11:49:11,024: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000065 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000065/unit.000065.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000065
+2018-10-11 11:49:11,052: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000066)
+2018-10-11 11:49:11,052: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,052: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,057: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000066/unit.000066.sh
+2018-10-11 11:49:11,058: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000066 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000066/unit.000066.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000066
+2018-10-11 11:49:11,099: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000067)
+2018-10-11 11:49:11,099: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,099: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,104: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000067/unit.000067.sh
+2018-10-11 11:49:11,105: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000067 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000067/unit.000067.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000067
+2018-10-11 11:49:11,130: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000068)
+2018-10-11 11:49:11,130: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,130: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,135: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000068/unit.000068.sh
+2018-10-11 11:49:11,136: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000068 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000068/unit.000068.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000068
+2018-10-11 11:49:11,170: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000069)
+2018-10-11 11:49:11,170: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,171: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,175: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000069/unit.000069.sh
+2018-10-11 11:49:11,176: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000069 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000069/unit.000069.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000069
+2018-10-11 11:49:11,202: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000070)
+2018-10-11 11:49:11,202: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,203: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,207: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000070/unit.000070.sh
+2018-10-11 11:49:11,213: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000070 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000070/unit.000070.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000070
+2018-10-11 11:49:11,239: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000071)
+2018-10-11 11:49:11,240: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,240: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,244: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000071/unit.000071.sh
+2018-10-11 11:49:11,245: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000071 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000071/unit.000071.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000071
+2018-10-11 11:49:11,279: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000072)
+2018-10-11 11:49:11,279: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,280: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,284: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000072/unit.000072.sh
+2018-10-11 11:49:11,290: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000072 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000072/unit.000072.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000072
+2018-10-11 11:49:11,319: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000073)
+2018-10-11 11:49:11,320: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,320: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,324: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000073/unit.000073.sh
+2018-10-11 11:49:11,329: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000073 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000073/unit.000073.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000073
+2018-10-11 11:49:11,356: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000074)
+2018-10-11 11:49:11,356: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,356: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,361: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000074/unit.000074.sh
+2018-10-11 11:49:11,367: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000074 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000074/unit.000074.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000074
+2018-10-11 11:49:11,398: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000075)
+2018-10-11 11:49:11,398: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,398: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,400: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000075/unit.000075.sh
+2018-10-11 11:49:11,405: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000075 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000075/unit.000075.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000075
+2018-10-11 11:49:11,430: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000076)
+2018-10-11 11:49:11,430: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,431: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,435: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000076/unit.000076.sh
+2018-10-11 11:49:11,441: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000076 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000076/unit.000076.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000076
+2018-10-11 11:49:11,463: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000077)
+2018-10-11 11:49:11,464: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,464: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,464: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000077/unit.000077.sh
+2018-10-11 11:49:11,467: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000077 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000077/unit.000077.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000077
+2018-10-11 11:49:11,498: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000078)
+2018-10-11 11:49:11,498: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,498: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,500: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000078/unit.000078.sh
+2018-10-11 11:49:11,505: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000078 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000078/unit.000078.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000078
+2018-10-11 11:49:11,533: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000079)
+2018-10-11 11:49:11,533: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,533: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,535: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000079/unit.000079.sh
+2018-10-11 11:49:11,540: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000079 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000079/unit.000079.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000079
+2018-10-11 11:49:11,568: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000000)
+2018-10-11 11:49:11,568: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,569: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,573: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000000/unit.000000.sh
+2018-10-11 11:49:11,581: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000000 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000000/unit.000000.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000000
+2018-10-11 11:49:11,613: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000001)
+2018-10-11 11:49:11,613: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,613: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,615: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000001/unit.000001.sh
+2018-10-11 11:49:11,620: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000001 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000001/unit.000001.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000001
+2018-10-11 11:49:11,657: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000002)
+2018-10-11 11:49:11,657: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,657: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,658: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000002/unit.000002.sh
+2018-10-11 11:49:11,659: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000002 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000002/unit.000002.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000002
+2018-10-11 11:49:11,691: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000003)
+2018-10-11 11:49:11,691: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,692: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,695: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000003/unit.000003.sh
+2018-10-11 11:49:11,696: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000003 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000003/unit.000003.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000003
+2018-10-11 11:49:11,731: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000004)
+2018-10-11 11:49:11,731: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,731: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,731: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000004/unit.000004.sh
+2018-10-11 11:49:11,734: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000004 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000004/unit.000004.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000004
+2018-10-11 11:49:11,763: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000005)
+2018-10-11 11:49:11,763: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,764: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,768: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000005/unit.000005.sh
+2018-10-11 11:49:11,773: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000005 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000005/unit.000005.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000005
+2018-10-11 11:49:11,808: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000006)
+2018-10-11 11:49:11,808: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,810: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,815: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000006/unit.000006.sh
+2018-10-11 11:49:11,816: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000006 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000006/unit.000006.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000006
+2018-10-11 11:49:11,859: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000007)
+2018-10-11 11:49:11,859: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,859: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,860: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000007/unit.000007.sh
+2018-10-11 11:49:11,865: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000007 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000007/unit.000007.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000007
+2018-10-11 11:49:11,904: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000008)
+2018-10-11 11:49:11,904: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,904: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,905: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000008/unit.000008.sh
+2018-10-11 11:49:11,906: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000008 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000008/unit.000008.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000008
+2018-10-11 11:49:11,956: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000009)
+2018-10-11 11:49:11,956: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:11,957: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:11,961: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000009/unit.000009.sh
+2018-10-11 11:49:11,967: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000009 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000009/unit.000009.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000009
+2018-10-11 11:49:12,000: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000010)
+2018-10-11 11:49:12,000: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,000: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,005: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000010/unit.000010.sh
+2018-10-11 11:49:12,006: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000010 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000010/unit.000010.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000010
+2018-10-11 11:49:12,041: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000011)
+2018-10-11 11:49:12,041: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,041: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,046: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000011/unit.000011.sh
+2018-10-11 11:49:12,047: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000011 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000011/unit.000011.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000011
+2018-10-11 11:49:12,080: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000012)
+2018-10-11 11:49:12,081: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,081: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,086: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000012/unit.000012.sh
+2018-10-11 11:49:12,087: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000012 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000012/unit.000012.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000012
+2018-10-11 11:49:12,124: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000013)
+2018-10-11 11:49:12,124: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,125: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,125: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000013/unit.000013.sh
+2018-10-11 11:49:12,126: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000013 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000013/unit.000013.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000013
+2018-10-11 11:49:12,160: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000014)
+2018-10-11 11:49:12,160: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,160: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,160: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000014/unit.000014.sh
+2018-10-11 11:49:12,161: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000014 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000014/unit.000014.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000014
+2018-10-11 11:49:12,216: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000015)
+2018-10-11 11:49:12,216: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,216: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,216: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000015/unit.000015.sh
+2018-10-11 11:49:12,217: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000015 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000015/unit.000015.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000015
+2018-10-11 11:49:12,248: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000016)
+2018-10-11 11:49:12,248: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,248: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,249: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000016/unit.000016.sh
+2018-10-11 11:49:12,252: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000016 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000016/unit.000016.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000016
+2018-10-11 11:49:12,291: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000017)
+2018-10-11 11:49:12,291: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,291: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,292: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000017/unit.000017.sh
+2018-10-11 11:49:12,293: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000017 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000017/unit.000017.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000017
+2018-10-11 11:49:12,334: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000018)
+2018-10-11 11:49:12,334: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,335: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,335: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000018/unit.000018.sh
+2018-10-11 11:49:12,336: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000018 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000018/unit.000018.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000018
+2018-10-11 11:49:12,371: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000019)
+2018-10-11 11:49:12,371: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,371: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,376: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000019/unit.000019.sh
+2018-10-11 11:49:12,377: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000019 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000019/unit.000019.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000019
+2018-10-11 11:49:12,416: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000020)
+2018-10-11 11:49:12,416: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,416: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,416: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000020/unit.000020.sh
+2018-10-11 11:49:12,422: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000020 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000020/unit.000020.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000020
+2018-10-11 11:49:12,461: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000021)
+2018-10-11 11:49:12,461: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,462: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,466: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000021/unit.000021.sh
+2018-10-11 11:49:12,467: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000021 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000021/unit.000021.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000021
+2018-10-11 11:49:12,512: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000022)
+2018-10-11 11:49:12,512: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,512: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,512: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000022/unit.000022.sh
+2018-10-11 11:49:12,514: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000022 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000022/unit.000022.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000022
+2018-10-11 11:49:12,552: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000023)
+2018-10-11 11:49:12,552: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,553: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,553: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000023/unit.000023.sh
+2018-10-11 11:49:12,554: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000023 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000023/unit.000023.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000023
+2018-10-11 11:49:12,598: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000024)
+2018-10-11 11:49:12,598: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,598: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,599: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000024/unit.000024.sh
+2018-10-11 11:49:12,600: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000024 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000024/unit.000024.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000024
+2018-10-11 11:49:12,637: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000025)
+2018-10-11 11:49:12,637: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,637: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,641: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000025/unit.000025.sh
+2018-10-11 11:49:12,642: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000025 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000025/unit.000025.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000025
+2018-10-11 11:49:12,678: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000026)
+2018-10-11 11:49:12,679: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,679: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,683: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000026/unit.000026.sh
+2018-10-11 11:49:12,689: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000026 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000026/unit.000026.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000026
+2018-10-11 11:49:12,730: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000027)
+2018-10-11 11:49:12,730: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,731: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,731: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000027/unit.000027.sh
+2018-10-11 11:49:12,733: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000027 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000027/unit.000027.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000027
+2018-10-11 11:49:12,770: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000028)
+2018-10-11 11:49:12,770: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,771: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,771: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000028/unit.000028.sh
+2018-10-11 11:49:12,772: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000028 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000028/unit.000028.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000028
+2018-10-11 11:49:12,822: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000029)
+2018-10-11 11:49:12,822: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,822: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,825: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000029/unit.000029.sh
+2018-10-11 11:49:12,826: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000029 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000029/unit.000029.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000029
+2018-10-11 11:49:12,865: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000030)
+2018-10-11 11:49:12,866: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,866: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,866: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000030/unit.000030.sh
+2018-10-11 11:49:12,867: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000030 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000030/unit.000030.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000030
+2018-10-11 11:49:12,900: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000031)
+2018-10-11 11:49:12,900: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,900: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,900: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000031/unit.000031.sh
+2018-10-11 11:49:12,902: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000031 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000031/unit.000031.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000031
+2018-10-11 11:49:12,937: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000032)
+2018-10-11 11:49:12,937: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,937: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:12,942: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000032/unit.000032.sh
+2018-10-11 11:49:12,954: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000032 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000032/unit.000032.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000032
+2018-10-11 11:49:12,995: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000033)
+2018-10-11 11:49:12,996: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:12,996: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:13,000: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000033/unit.000033.sh
+2018-10-11 11:49:13,001: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000033 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000033/unit.000033.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000033
+2018-10-11 11:49:13,031: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000034)
+2018-10-11 11:49:13,031: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:13,032: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:13,036: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000034/unit.000034.sh
+2018-10-11 11:49:13,037: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000034 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000034/unit.000034.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000034
+2018-10-11 11:49:13,068: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000035)
+2018-10-11 11:49:13,068: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:13,068: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:13,068: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000035/unit.000035.sh
+2018-10-11 11:49:13,079: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000035 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000035/unit.000035.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000035
+2018-10-11 11:49:13,118: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000036)
+2018-10-11 11:49:13,118: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:13,118: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:13,119: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000036/unit.000036.sh
+2018-10-11 11:49:13,120: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000036 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000036/unit.000036.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000036
+2018-10-11 11:49:13,156: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000037)
+2018-10-11 11:49:13,156: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:13,157: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:13,157: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000037/unit.000037.sh
+2018-10-11 11:49:13,158: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000037 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000037/unit.000037.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000037
+2018-10-11 11:49:13,197: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000038)
+2018-10-11 11:49:13,197: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:13,198: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:13,198: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000038/unit.000038.sh
+2018-10-11 11:49:13,199: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000038 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000038/unit.000038.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000038
+2018-10-11 11:49:13,238: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : got unit (unit.000039)
+2018-10-11 11:49:13,238: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2018-10-11 11:49:13,238: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Launching unit with Fork ().
+2018-10-11 11:49:13,243: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : Created launch_script: /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000039/unit.000039.sh
+2018-10-11 11:49:13,249: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : Launching unit unit.000039 via /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000039/unit.000039.sh in /home/sdimitro/radical.pilot.sandbox/rp.session.smic004.sdimitro.017815.0067/pilot.0000/unit.000039
+2018-10-11 11:54:14,533: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000037 has return code 0.
+2018-10-11 11:54:14,534: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:54:14,534: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:54:22,995: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000003 has return code 0.
+2018-10-11 11:54:23,000: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:54:23,000: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:54:39,007: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000058 has return code 0.
+2018-10-11 11:54:39,007: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:54:39,007: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:54:58,235: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000063 has return code 0.
+2018-10-11 11:54:58,235: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:54:58,235: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:54:59,645: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000045 has return code 0.
+2018-10-11 11:54:59,645: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:54:59,645: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:55:05,686: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000047 has return code 0.
+2018-10-11 11:55:05,686: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:55:05,686: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:55:06,291: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000011 has return code 0.
+2018-10-11 11:55:06,291: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:55:06,291: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:55:51,180: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000030 has return code 0.
+2018-10-11 11:55:51,180: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:55:51,180: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:56:04,660: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000076 has return code 0.
+2018-10-11 11:56:04,665: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:56:04,665: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:56:06,274: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000010 has return code 0.
+2018-10-11 11:56:06,274: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:56:06,274: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:56:14,717: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000048 has return code 0.
+2018-10-11 11:56:14,717: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:56:14,717: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:56:23,461: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000015 has return code 0.
+2018-10-11 11:56:23,461: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:56:23,461: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:56:24,467: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000072 has return code 0.
+2018-10-11 11:56:24,467: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:56:24,467: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:56:29,091: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000061 has return code 0.
+2018-10-11 11:56:29,091: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:56:29,091: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:56:38,338: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000013 has return code 0.
+2018-10-11 11:56:38,343: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:56:38,343: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:56:45,479: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000070 has return code 0.
+2018-10-11 11:56:45,479: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:56:45,479: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:56:49,299: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000065 has return code 0.
+2018-10-11 11:56:49,299: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:56:49,299: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:56:50,104: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000028 has return code 0.
+2018-10-11 11:56:50,104: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:56:50,104: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:56:55,934: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000001 has return code 0.
+2018-10-11 11:56:55,934: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:56:55,934: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:57:04,884: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000025 has return code 0.
+2018-10-11 11:57:04,884: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:57:04,884: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:57:15,538: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000073 has return code 0.
+2018-10-11 11:57:15,538: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:57:15,538: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:57:32,724: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000078 has return code 0.
+2018-10-11 11:57:32,724: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:57:32,725: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:57:39,057: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000027 has return code 0.
+2018-10-11 11:57:39,057: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:57:39,057: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:57:45,691: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000046 has return code 0.
+2018-10-11 11:57:45,691: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:57:45,691: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:58:00,264: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000064 has return code 0.
+2018-10-11 11:58:00,269: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:58:00,269: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:58:15,747: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000079 has return code 0.
+2018-10-11 11:58:15,747: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:58:15,747: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:58:18,164: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000032 has return code 0.
+2018-10-11 11:58:18,164: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:58:18,164: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:58:26,908: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000056 has return code 0.
+2018-10-11 11:58:26,908: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:58:26,909: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:58:29,522: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000039 has return code 0.
+2018-10-11 11:58:29,522: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:58:29,522: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:58:32,136: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000008 has return code 0.
+2018-10-11 11:58:32,136: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:58:32,136: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:58:33,544: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000042 has return code 0.
+2018-10-11 11:58:33,544: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:58:33,544: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:58:47,816: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000051 has return code 0.
+2018-10-11 11:58:47,816: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:58:47,816: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:58:54,852: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000022 has return code 0.
+2018-10-11 11:58:54,856: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:58:54,856: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:59:04,706: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000077 has return code 0.
+2018-10-11 11:59:04,706: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:59:04,706: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:59:14,857: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000055 has return code 0.
+2018-10-11 11:59:14,857: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:59:14,857: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:59:21,792: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000000 has return code 0.
+2018-10-11 11:59:21,792: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:59:21,793: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:59:21,994: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000026 has return code 0.
+2018-10-11 11:59:21,994: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:59:21,994: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:59:23,200: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000031 has return code 0.
+2018-10-11 11:59:23,200: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:59:23,200: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:59:50,738: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000021 has return code 0.
+2018-10-11 11:59:50,738: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:59:50,738: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 11:59:51,543: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000041 has return code 0.
+2018-10-11 11:59:51,543: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 11:59:51,543: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:00:12,447: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000016 has return code 0.
+2018-10-11 12:00:12,452: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:00:12,452: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:00:13,156: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000062 has return code 0.
+2018-10-11 12:00:13,156: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:00:13,156: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:00:51,950: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000057 has return code 0.
+2018-10-11 12:00:51,950: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:00:51,950: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:00:56,272: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000033 has return code 0.
+2018-10-11 12:00:56,272: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:00:56,272: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:00:57,077: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000007 has return code 0.
+2018-10-11 12:00:57,077: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:00:57,077: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:01:03,308: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000035 has return code 0.
+2018-10-11 12:01:03,308: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:01:03,309: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:01:15,168: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000009 has return code 0.
+2018-10-11 12:01:15,168: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:01:15,168: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:01:26,424: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000014 has return code 0.
+2018-10-11 12:01:26,424: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:01:26,425: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:01:28,334: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000067 has return code 0.
+2018-10-11 12:01:28,334: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:01:28,334: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:01:34,365: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000069 has return code 0.
+2018-10-11 12:01:34,365: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:01:34,365: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:01:36,376: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000034 has return code 0.
+2018-10-11 12:01:36,376: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:01:36,376: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:01:46,929: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000024 has return code 0.
+2018-10-11 12:01:46,929: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:01:46,929: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:01:47,734: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000049 has return code 0.
+2018-10-11 12:01:47,734: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:01:47,734: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:01:50,046: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000006 has return code 0.
+2018-10-11 12:01:50,046: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:01:50,046: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:01:58,488: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000038 has return code 0.
+2018-10-11 12:01:58,488: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:01:58,488: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:01:59,594: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000018 has return code 0.
+2018-10-11 12:01:59,594: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:01:59,594: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:02:08,841: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000054 has return code 0.
+2018-10-11 12:02:08,841: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:02:08,841: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:02:09,545: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000017 has return code 0.
+2018-10-11 12:02:09,545: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:02:09,545: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:02:20,399: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000068 has return code 0.
+2018-10-11 12:02:20,399: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:02:20,400: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:02:33,062: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000029 has return code 0.
+2018-10-11 12:02:33,062: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:02:33,062: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:02:36,279: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000012 has return code 0.
+2018-10-11 12:02:36,279: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:02:36,279: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:02:41,305: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000036 has return code 0.
+2018-10-11 12:02:41,305: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:02:41,305: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:02:46,533: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000043 has return code 0.
+2018-10-11 12:02:46,533: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:02:46,533: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:02:48,442: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000040 has return code 0.
+2018-10-11 12:02:48,442: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:02:48,442: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:07,948: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000005 has return code 0.
+2018-10-11 12:03:07,948: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:07,948: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:08,250: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000066 has return code 0.
+2018-10-11 12:03:08,250: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:08,251: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:14,083: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000060 has return code 0.
+2018-10-11 12:03:14,083: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:14,083: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:15,692: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000050 has return code 0.
+2018-10-11 12:03:15,693: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:15,693: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:16,799: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000053 has return code 0.
+2018-10-11 12:03:16,799: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:16,799: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:25,547: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000019 has return code 0.
+2018-10-11 12:03:25,548: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:25,548: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:30,776: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000023 has return code 0.
+2018-10-11 12:03:30,776: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:30,776: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:30,877: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000002 has return code 0.
+2018-10-11 12:03:30,877: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:30,877: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:31,581: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000075 has return code 0.
+2018-10-11 12:03:31,582: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:31,582: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:32,587: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000044 has return code 0.
+2018-10-11 12:03:32,588: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:32,588: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:35,805: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000052 has return code 0.
+2018-10-11 12:03:35,806: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:35,806: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:39,526: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000074 has return code 0.
+2018-10-11 12:03:39,526: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:39,526: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:47,970: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000004 has return code 0.
+2018-10-11 12:03:47,971: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:47,971: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:03:55,007: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000059 has return code 0.
+2018-10-11 12:03:55,007: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:03:55,007: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:04:03,453: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : INFO    : Unit unit.000071 has return code 0.
+2018-10-11 12:04:03,453: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : advance bulk size: 1 [True, True]
+2018-10-11 12:04:03,453: agent_0.executing.0.child: agent_0.executing.0             : Watcher        : DEBUG   : put bulk AGENT_STAGING_OUTPUT_PENDING: 1
+2018-10-11 12:04:04,005: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : got termination command
+2018-10-11 12:04:04,093: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : stop agent_0.executing.0.child (56437 : 56437 : agent_0.executing.0.child.subscriber._cancel_monitor_cb) [radical.pilot.utils.component.Popen._cancel_monitor_cb]
+2018-10-11 12:04:04,093: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  56437 -> 56437 [agent_0.executing.0.child]
+2018-10-11 12:04:04,093: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : send message: [agent_0.executing.0.child] STOP
+2018-10-11 12:04:04,094: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_common()
+2018-10-11 12:04:04,094: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.executing.0.child unregister publisher log_pubsub
+2018-10-11 12:04:04,094: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher log_pubsub
+2018-10-11 12:04:04,094: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.executing.0.child unregister publisher state_pubsub
+2018-10-11 12:04:04,095: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher state_pubsub
+2018-10-11 12:04:04,095: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.executing.0.child unregister publisher control_pubsub
+2018-10-11 12:04:04,096: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher control_pubsub
+2018-10-11 12:04:04,096: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : agent_0.executing.0.child close prof
+2018-10-11 12:04:04,096: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.executing.0.child.subscriber._cancel_monitor_cb - do not join
+2018-10-11 12:04:04,096: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : child calls stop()
+2018-10-11 12:04:04,096: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.executing.0.child.subscriber._cancel_monitor_cb - do not join
+2018-10-11 12:04:04,097: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.executing.0.child.subscriber._cancel_monitor_cb - do not join
+2018-10-11 12:04:04,097: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 12:04:04,097: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: INFO    : command_cb [control_pubsub]: {'cmd': 'terminate', 'arg': None}
+2018-10-11 12:04:04,097: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 12:04:04,098: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: INFO    : put message: [agent_0.executing.0.child.subscriber.command_cb.thread] terminating
+2018-10-11 12:04:04,098: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [agent_0.executing.0.child.subscriber._cancel_monitor_cb.thread] terminating
+2018-10-11 12:04:04,144: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.watch: WARNING : %s died
+2018-10-11 12:04:04,144: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.watch: INFO    : watcher closes
+2018-10-11 12:04:04,144: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.watch: INFO    : put message: [agent_0.executing.0.child.watch.thread] work finished
+2018-10-11 12:04:04,144: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.watch: DEBUG   : ru_finalize_child (NOOP)
+2018-10-11 12:04:04,144: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.watch: DEBUG   : ru_finalize_common (NOOP)
+2018-10-11 12:04:04,144: agent_0.executing.0.child: agent_0.executing.0             : agent_0.executing.0.child.watch: INFO    : put message: [agent_0.executing.0.child.watch.thread] terminating
+2018-10-11 12:04:04,677: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : ru_finalize_common()
+2018-10-11 12:04:04,677: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : WARNING : publisher log_pubsub is not registered
+2018-10-11 12:04:04,677: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : WARNING : publisher state_pubsub is not registered
+2018-10-11 12:04:04,677: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : WARNING : publisher control_pubsub is not registered
+2018-10-11 12:04:04,677: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : agent_0.executing.0.child close prof
+2018-10-11 12:04:04,677: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : send message: [agent_0.executing.0.child] terminating
+2018-10-11 12:04:04,677: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : WARNING : send failed ([Errno 9] Bad file descriptor) - terminate
+2018-10-11 12:04:04,677: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : parent stops child
+2018-10-11 12:04:04,677: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2018-10-11 12:04:04,677: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : INFO    : parent stops child
+2018-10-11 12:04:04,678: agent_0.executing.0.child: agent_0.executing.0             : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
